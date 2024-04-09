@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\TPClubDeportivo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\club.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|..\\CapaDeNegocios\\CapaDeNegocios.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,9 +52,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|..\\CapaDeNegocios\\CapaDeNegocios.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|..\\CapaDeUsuario\\CapaDeUsuario.csproj|c:\\users\\usuario\\onedrive - universidad de moron\\electiva de programaci\u00F3n\\capadeusuario\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,11 +61,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clase.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Clase.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Clase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Clase.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Clase.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:08:36.701Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Pago.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Pago.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Pago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Pago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:08:13.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Socio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Socio.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Socio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Socio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Socio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:08:00.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profesor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Profesor.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Profesor.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Profesor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Profesor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:07:47.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Actividad.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Actividad.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Actividad.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Actividad.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Actividad.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:07:31.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Club.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Club.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:04:32.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Club.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Club.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Club.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T23:33:16.216Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Club.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.Designer.cs",
+              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Club.Designer.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.Designer.cs",
+              "RelativeToolTip": "..\\CapaDeUsuario\\Club.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:01:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Actividad.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Actividad.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Actividad.cs",
@@ -52,12 +167,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Actividad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:36:18.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:36:18.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Pago.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Pago.cs",
@@ -65,12 +179,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Pago.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:35:54.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:35:54.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Persona.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Persona.cs",
@@ -78,12 +191,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Persona.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAwwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:35:11.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:35:11.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Profesor.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Profesor.cs",
@@ -91,12 +203,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Profesor.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:35:44.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:35:44.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Clase.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Clase.cs",
@@ -104,12 +215,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Clase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:34:57.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:34:57.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "SocioActividad.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioActividad.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\SocioActividad.cs",
@@ -117,12 +227,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\SocioActividad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:34:14.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:34:14.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "SocioClub.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioClub.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\SocioClub.cs",
@@ -130,12 +239,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\SocioClub.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwBIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:34:02.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:34:02.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Socio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Socio.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Socio.cs",
@@ -143,23 +251,11 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Socio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:33:49.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:33:49.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\CapaDeUsuario\\Form1.cs",
-              "ToolTip": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\CapaDeUsuario\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:33:16.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Club.cs",
               "RelativeDocumentMoniker": "..\\CapaDeNegocios\\Club.cs",
@@ -167,8 +263,7 @@
               "RelativeToolTip": "..\\CapaDeNegocios\\Club.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAA4wEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T23:32:47.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T23:32:47.499Z"
             }
           ]
         }
