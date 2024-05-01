@@ -19,6 +19,12 @@ namespace CapaDeNegocios
             this.nombre = nombre;
             this.precio = precio;
             this.clases = clases;
+            this.clases = new List<Clase>();
+        }
+
+        public Actividad()
+        {
+
         }
 
         public void agregarClase(Clase c)
@@ -34,6 +40,44 @@ namespace CapaDeNegocios
         public float Precio
         {
             get { return precio; }
+            set { precio = value; }
+        }
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public List<Clase> Clase
+        {
+            get { return clases; }
+            set { clases = value; }
+        }
+
+        public void borrarClases()
+        {
+            this.clases.Clear();
+        }
+
+        public void eliminar()
+        {
+            foreach(var c  in clases)
+            {
+                c.removerDeProfesorYSocios();
+            }
+        }
+
+
+        public override string ToString()
+        {
+            return this.id+" "+this.nombre + " U$D" + this.precio.ToString();
         }
     }
 }

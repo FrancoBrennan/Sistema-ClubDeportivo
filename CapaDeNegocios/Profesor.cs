@@ -11,8 +11,21 @@ namespace CapaDeNegocios
     {
         private int legajo;
 
-        public Profesor(int dni, string nombre, DateTime fechaNac, DateTime fechaIng, int legajo) : base(dni,nombre,fechaNac,fechaIng){
+        public Profesor(int dni, string nombre, DateTime fechaNac, int legajo) : base(dni,nombre,fechaNac){
             this.legajo = legajo;
+        }
+
+        public int Legajo
+        {
+            get { return legajo; }
+            set { legajo = value; }
+        }
+
+        public void removerDeClase()
+        {
+            foreach(Clase clase in this.clases) { 
+                clase.removerProfesor
+            }
         }
 
 

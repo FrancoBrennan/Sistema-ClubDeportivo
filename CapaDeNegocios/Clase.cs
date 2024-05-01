@@ -59,5 +59,15 @@ namespace CapaDeNegocios
         {
             socios.Remove(s);
         }
+
+        public void removerDeProfesorYSocios()
+        {
+            this.prof.quitarClase(this);
+            
+            foreach(Socio s in socios)
+            {
+                s.quitarClase(this);
+            }
+        }
     }
 }

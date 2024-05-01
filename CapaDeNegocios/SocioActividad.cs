@@ -8,7 +8,7 @@ namespace CapaDeNegocios
 {
     public class SocioActividad : Socio
     {
-        public SocioActividad(int dni, string nombre, DateTime fechaNac, DateTime fechaIng, int id, string email, string direccion) : base(dni, nombre, fechaNac, fechaIng, id, email, direccion)
+        public SocioActividad(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac, email, direccion)
         {
             
         }

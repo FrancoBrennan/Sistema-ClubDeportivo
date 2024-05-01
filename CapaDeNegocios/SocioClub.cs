@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,9 +14,20 @@ namespace CapaDeNegocios
         private static int ActMax;
         private static int PorcDesc;
 
-        public SocioClub(int dni, string nombre, DateTime fechaNac, DateTime fechaIng, int id, string email, string direccion, float cuotaSocial) : base(dni,nombre,fechaNac,fechaIng,id,email,direccion)
+        public SocioClub(int dni, string nombre, DateTime fechaNac, string email, string direccion, float cuotaSocial) : base(dni,nombre,fechaNac,email,direccion)
         {
             this.cuotaSocial = cuotaSocial;
+        }
+
+        public override bool usaCuota()
+        {
+            return true;
+        }
+
+        public float CuotaSocial
+        {
+            get { return cuotaSocial; }
+            set { cuotaSocial = value; }
         }
 
         public static void SetPorcDescuento(int p)

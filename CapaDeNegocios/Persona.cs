@@ -11,20 +11,19 @@ namespace CapaDeNegocios
         private int dni;
         private string nombre;
         private DateTime fechaNac;
-        private DateTime fechaIng;
         protected List<Clase> clases;
 
-        public Persona(int dni, string nombre, DateTime fechaNac, DateTime fechaIng)
+        public Persona(int dni, string nombre, DateTime fechaNac)
         {
             this.dni = dni;
             this.nombre = nombre;
             this.fechaNac = fechaNac;
-            this.fechaIng = fechaIng;
+            this.clases = new List<Clase>();
         }
 
         public override string ToString()
         {
-            return "DNI: "+dni + " Edad: " + calcularEdad() + " Nombre: " + nombre + " Fecha Ingreso: " + fechaIng.Date.ToString();
+            return "DNI: " + dni + " Edad: " + calcularEdad() + " Nombre: " + nombre;
         }
 
         public int calcularEdad()
@@ -73,6 +72,7 @@ namespace CapaDeNegocios
         {
             clases.Remove(c);
         }
+
 
     }
 }

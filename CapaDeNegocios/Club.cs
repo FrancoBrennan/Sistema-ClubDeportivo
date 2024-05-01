@@ -23,6 +23,36 @@ namespace CapaDeNegocios
             pagos = new List<Pago>();
         }
 
+        public List<Actividad> Actividades
+        {
+            get { return actividades; }
+            set { actividades = value; }
+        }
+
+        public List<Socio> Socios
+        {
+            get { return socios; }
+            set { socios = value; }
+        }
+
+        public List<Clase> Clases
+        {
+            get { return clases; }
+            set { clases = value; }
+        }
+
+        public List<Profesor> Profesores
+        {
+            get { return profesores; }
+            set { profesores = value; }
+        }
+
+        public List<Pago> Pagos
+        {
+            get { return pagos; }
+            set { pagos = value; }
+        }
+
         public void agregarActividad(Actividad newAct)
         {
             actividades.Add(newAct);
@@ -48,18 +78,23 @@ namespace CapaDeNegocios
             this.pagos.Add(newPago);
         }
 
-        /*
+        
         public void removerActividad(Actividad act)
         {
-            foreach (var c in act.Comisiones)
+            foreach (var c in act.Clase)
             {
-                comisiones.Remove(c);
+                clases.Remove(c);
             }
 
-            act.limpiarComisiones();
+            act.borrarClases();
             actividades.Remove(act);
         }
-        */
+
+        public void removerSocio(Socio soc)
+        {
+            socios.Remove(soc);
+        }
+
 
         public void quitarSocio(Socio soc)
         {
@@ -74,6 +109,21 @@ namespace CapaDeNegocios
         public void quitarComision(Clase com)
         {
             clases.Remove(com);
+        }
+
+        public bool verificarActividad(Actividad nuevaActividad)
+        {
+            return actividades.Any(actividad => actividad.Id == nuevaActividad.Id);
+        }
+
+        public bool verificarSocio(Socio nuevoSocio)
+        {
+            return socios.Any(socio => socio.Dni == nuevoSocio.Dni);
+        }
+
+        public bool verificarProfesor(Profesor nuevoProf)
+        {
+            return profesores.Any(profesor => profesor.Legajo == nuevoProf.Legajo || profesor.Dni == nuevoProf.Dni);
         }
 
     }
