@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class SocioActividad : Socio
     {
         public SocioActividad(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac, email, direccion)

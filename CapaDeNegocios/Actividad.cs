@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class Actividad
     {
         private int id;

@@ -52,5 +52,11 @@
     <Compile Include="SocioActividad.cs" />
     <Compile Include="SocioClub.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDeDatos\CapaDeDatos.csproj">
+      <Project>{CD218E90-7519-4174-8E63-67575124BF9C}</Project>
+      <Name>CapaDeDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

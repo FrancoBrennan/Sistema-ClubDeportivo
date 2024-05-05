@@ -47,11 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PantallaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaPago.Designer.cs">
+      <DependentUpon>PantallaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaSocioClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaSocioClase.Designer.cs">
+      <DependentUpon>PantallaSocioClase.cs</DependentUpon>
+    </Compile>
     <Compile Include="PantallaProfesor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PantallaProfesor.Designer.cs">
       <DependentUpon>PantallaProfesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PantallaClase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaClase.Designer.cs">
+      <DependentUpon>PantallaClase.cs</DependentUpon>
     </Compile>
     <Compile Include="PantallaSocio.cs">
       <SubType>Form</SubType>
@@ -73,8 +91,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PantallaPago.resx">
+      <DependentUpon>PantallaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaSocioClase.resx">
+      <DependentUpon>PantallaSocioClase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PantallaProfesor.resx">
       <DependentUpon>PantallaProfesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaClase.resx">
+      <DependentUpon>PantallaClase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PantallaSocio.resx">
       <DependentUpon>PantallaSocio.cs</DependentUpon>

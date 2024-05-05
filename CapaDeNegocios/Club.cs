@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class Club
     {
         private List<Actividad> actividades;
@@ -53,6 +55,21 @@ namespace CapaDeNegocios
             set { pagos = value; }
         }
 
+        public static Club Cargar()
+        {
+            Club club = (Club)Datos.Recuperar();
+            if (club == null)
+            {
+                club = new Club();
+            }
+            return club;
+        }
+
+        public void guardar()
+        {
+            Datos.Guardar(this);
+        }
+
         public void agregarActividad(Actividad newAct)
         {
             actividades.Add(newAct);
@@ -63,9 +80,9 @@ namespace CapaDeNegocios
             socios.Add(newSoc);
         }
 
-        public void agregarComision(Clase newCom)
+        public void agregarClase(Clase c)
         {
-            clases.Add(newCom);
+            clases.Add(c);
         }
 
         public void agregarProfesor(Profesor newProf)
@@ -95,20 +112,19 @@ namespace CapaDeNegocios
             socios.Remove(soc);
         }
 
-
-        public void quitarSocio(Socio soc)
-        {
-            socios.Remove(soc);
-        }
-
-        public void quitarProfesor(Profesor prof)
+        public void removerProfesor(Profesor prof)
         {
             profesores.Remove(prof);
         }
 
-        public void quitarComision(Clase com)
+        public void removerClase(Clase c)
         {
-            clases.Remove(com);
+            clases.Remove(c);
+        }
+
+        public void removerPago(Pago p)
+        {
+            pagos.Remove(p);
         }
 
         public bool verificarActividad(Actividad nuevaActividad)
@@ -124,6 +140,18 @@ namespace CapaDeNegocios
         public bool verificarProfesor(Profesor nuevoProf)
         {
             return profesores.Any(profesor => profesor.Legajo == nuevoProf.Legajo || profesor.Dni == nuevoProf.Dni);
+        }
+
+        public bool verificarClase(Clase nuevaClase)
+        {
+            return clases.Any(clase => clase.Id == nuevaClase.Id);
+        }
+
+        public void generarPago(Socio socio)
+        {
+            float total = socio.calcularMontoTotal();
+            Pago pago = new Pago(this.pagos.Count, DateTime.Now, socio, total);
+            this.pagos.Add(pago);
         }
 
     }

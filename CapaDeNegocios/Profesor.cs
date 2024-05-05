@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class Profesor : Persona
     {
         private int legajo;
@@ -21,13 +22,12 @@ namespace CapaDeNegocios
             set { legajo = value; }
         }
 
-        public void removerDeClase()
+        public void removerDeClases()
         {
-            foreach(Clase clase in this.clases) { 
-                clase.removerProfesor
+            foreach(Clase clase in this.clases) {
+                clase.removerProfesor();
             }
         }
-
 
     }
 }

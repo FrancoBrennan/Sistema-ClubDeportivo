@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class Clase
     {
         private int id;
@@ -27,9 +28,46 @@ namespace CapaDeNegocios
             this.cupoMax = cupoMax;
         }
 
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+
         public Actividad Act
         {
             get { return act; }
+            set { act = value; }
+        }
+
+        public string Dia
+        {
+            get { return dia; }
+            set { dia = value; }
+        }
+
+        public int Hora
+        {
+            get { return hora; }
+            set { hora = value; }
+        }
+
+        public List<Socio> Socios
+        {
+            get { return socios; }
+            set { socios = value; }
+        }
+
+        public Profesor Prof
+        {
+            get { return prof; }
+            set { prof = value; }
+        }
+
+        public int CupoMax
+        {
+            get { return cupoMax; }
+            set { cupoMax = value; }
         }
 
         public void agregarSocio(Socio newSocio)
@@ -38,16 +76,12 @@ namespace CapaDeNegocios
             {
                 socios.Add(newSocio);
             }
-            else
-            {
-
-            }
             
         }
 
         public bool verificarCupo()
         {
-            return socios.Count() <this.cupoMax;
+            return socios.Count() < this.cupoMax;
         }
 
         public bool verificarSocio(Socio s)
@@ -62,12 +96,25 @@ namespace CapaDeNegocios
 
         public void removerDeProfesorYSocios()
         {
-            this.prof.quitarClase(this);
-            
-            foreach(Socio s in socios)
+            if (this.prof != null)
             {
-                s.quitarClase(this);
+                this.prof.quitarClase(this);
+
+                foreach (Socio s in socios)
+                {
+                    s.quitarClase(this);
+                }
             }
+        }
+
+        public void removerProfesor()
+        {
+            this.prof = null;
+        }
+
+        public override string ToString()
+        {
+            return this.id + "-" + this.act.Nombre + "-" + this.dia + "-" + this.hora + " hs.";
         }
     }
 }

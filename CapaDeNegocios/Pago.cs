@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class Pago
     {
         private int id;
@@ -21,6 +22,9 @@ namespace CapaDeNegocios
             this.montoTotal = montoTotal;
         }
 
-
+        public override string ToString()
+        {
+            return id + "-" + montoTotal + "-" + fechaPaga + "-" + socio.Nombre;
+        }
     }
 }
