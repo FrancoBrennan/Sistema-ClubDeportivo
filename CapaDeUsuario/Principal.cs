@@ -18,7 +18,12 @@ namespace CapaDeUsuario
         public Principal()
         {
             InitializeComponent();
-            this.club = new Club();
+
+            //Carga los datos guardados
+
+            this.club = Club.Cargar();
+
+            //Carga todos los listbox con los datos cargados
 
             listBoxAct.DataSource = club.Actividades;
             listBoxAct.ClearSelected();
@@ -37,7 +42,7 @@ namespace CapaDeUsuario
         }
 
 
-
+        /*
         private void profesoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
@@ -52,14 +57,15 @@ namespace CapaDeUsuario
         {
             
         }
+        */
 
         private void Principal_Load(object sender, EventArgs e)
         {
-            string actividades = Microsoft.VisualBasic.Interaction.InputBox("Cantidad máxima de actividades del socio","Actividades del Socio");
+            string actividades = Microsoft.VisualBasic.Interaction.InputBox("Cantidad máxima de actividades del socio","Actividades del Socio", SocioClub.GetActividadesMax().ToString());
 
             SocioClub.SetActividadesMax(int.Parse(actividades));
 
-            string descuento = Microsoft.VisualBasic.Interaction.InputBox("Ingrese procentaje de descuento", "Descuento del Socio Club por actividades extras");
+            string descuento = Microsoft.VisualBasic.Interaction.InputBox("Ingrese procentaje de descuento", "Descuento del Socio Club por actividades extras", SocioClub.GetPorcDescuento().ToString());
 
             SocioClub.SetPorcDescuento(int.Parse(descuento));
         }
@@ -71,7 +77,11 @@ namespace CapaDeUsuario
 
         private void AgregarAct_Click(object sender, EventArgs e)
         {
+            //Al clickear en el botón "Agregar" se crea un objeto form
+
             PantallaActividad agregarActividad = new PantallaActividad();
+
+            //Se muestra el formulario
 
             agregarActividad.ShowDialog();
             
@@ -82,6 +92,8 @@ namespace CapaDeUsuario
                 if (!this.club.verificarActividad(actividad))
                 {
                     this.club.agregarActividad(actividad);
+
+                    //Con estas dos líneas recarga el listbox de actividades
                     this.listBoxAct.DataSource = null;
                     this.listBoxAct.DataSource = club.Actividades;
 
@@ -105,6 +117,7 @@ namespace CapaDeUsuario
 
                 agregarActividad.ShowDialog();
 
+                //Refresca la listbox de actividades por si hubo algún cambio
                 this.listBoxAct.DataSource = null;
                 this.listBoxAct.DataSource = club.Actividades;
 
@@ -143,24 +156,6 @@ namespace CapaDeUsuario
                 MessageBox.Show("No hay actividad seleccionada :(");
             }
 
-
-        }
-
-        /*
-        private void AgregarPago_Click(object sender, EventArgs e)
-        {
-            AgregarPago agregarPago = new AgregarPago();
-            agregarPago.ShowDialog();
-        }
-        */
-
-        private void ModificarPago_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BorrarPago_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -289,7 +284,7 @@ namespace CapaDeUsuario
 
                 if (dr == DialogResult.Yes)
                 {
-                    prof.remover();
+                    prof.removerDeClases();
 
                     club.removerProfesor(prof);
 
@@ -302,6 +297,198 @@ namespace CapaDeUsuario
             else
             {
                 MessageBox.Show("No hay Profesor seleccionado :(");
+            }
+        }
+
+        private void AgregarClase_Click(object sender, EventArgs e)
+        {
+            PantallaClase pantallaClase = new PantallaClase(this.club.Actividades, this.club.Profesores);
+
+            pantallaClase.ShowDialog();
+
+            Clase clase = pantallaClase.Clase;
+
+            if (!club.verificarClase(clase))
+            {
+                club.agregarClase(clase);
+
+                listBoxClases.DataSource = null;
+                listBoxClases.DataSource = club.Clases;
+
+                listBoxClases.ClearSelected();
+            }
+            else
+            {
+                MessageBox.Show("Ya existe una Clase con ese Id ;)");
+            }
+        }
+
+        private void ModificarClase_Click(object sender, EventArgs e)
+        {
+            Clase clase = (Clase)this.listBoxClases.SelectedItem;
+
+            if (clase != null)
+            {
+                PantallaClase pantallaClase = new PantallaClase(clase, this.club.Actividades, this.club.Profesores);
+
+                pantallaClase.ShowDialog();
+
+                this.listBoxClases.DataSource = null;
+                this.listBoxClases.DataSource = club.Clases;
+
+                listBoxClases.ClearSelected();
+            }
+            else
+            {
+                MessageBox.Show("No hay clase seleccionada :(");
+            }
+        }
+
+        private void BorrarClase_Click(object sender, EventArgs e)
+        {
+            Clase clase = (Clase)this.listBoxClases.SelectedItem;
+
+            if (clase != null)
+            {
+                DialogResult dr = MessageBox.Show("¿Estas seguro que desea eliminar la clase?", "Eliminar", MessageBoxButtons.YesNo);
+
+                if (dr == DialogResult.Yes)
+                {
+                    clase.removerDeProfesorYSocios();
+
+                    club.removerClase(clase);
+
+                    this.listBoxClases.DataSource = null;
+                    this.listBoxClases.DataSource = club.Clases;
+
+                    listBoxClases.ClearSelected();
+                }
+            }
+            else
+            {
+                MessageBox.Show("No hay clase seleccionada :(");
+            }
+        }
+
+        // Agregar socio a clase
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Clase clase = (Clase)this.listBoxClases.SelectedItem;
+
+            if (clase != null)
+            {
+                if (clase.verificarCupo())
+                {
+                    PantallaSocioClase pantallaClase = new PantallaSocioClase(this.club.Socios,clase);
+
+                    //Ejecuta el formulario
+                    pantallaClase.ShowDialog();
+
+                    //Una vez que termina asigna el socio creado en el formulario a una variable local.
+                    Socio socio = pantallaClase.Socio;
+
+                    if (socio != null)
+                    {
+                        //Acá ocurre un error ya que se puede agregar el mismo socio multiples veces a una misma clase. Se corrigió en
+                        //PantallaSocioClase para que no muestre en el combobox a aquellos socios que ya estén en dicha clase.
+
+                        clase.agregarSocio(socio);
+                        socio.agregarClase(clase);
+
+                        listBoxClases.DataSource = null;
+                        listBoxClases.DataSource = club.Clases;
+
+                        listBoxClases.ClearSelected();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("La clase llegó al cupo máximo ;)");
+                }
+            }
+            else
+            {
+                MessageBox.Show("No hay clase seleccionada :(");
+            }
+        }
+
+        // Sacar socio de clase
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Clase clase = (Clase)this.listBoxClases.SelectedItem;
+
+            if (clase != null)
+            {
+                PantallaSocioClase pantallaClase = new PantallaSocioClase(clase);
+
+                pantallaClase.ShowDialog();
+
+                Socio socio = pantallaClase.Socio;
+
+                if (socio != null)
+                {
+                    clase.quitarSocio(socio);
+                    socio.quitarClase(clase);
+
+                    listBoxClases.DataSource = null;
+                    listBoxClases.DataSource = club.Clases;
+
+                    listBoxClases.ClearSelected();
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("No hay clase seleccionada :(");
+            }
+        }
+
+        private void AgregarPago_Click(object sender, EventArgs e)
+        {
+            PantallaPago pantallaPago = new PantallaPago(this.club.Socios);
+
+            pantallaPago.ShowDialog();
+
+            Socio socio = pantallaPago.Socio;
+
+            if (socio != null)
+            {
+                club.generarPago(socio);
+
+                listBoxPagos.DataSource = null;
+                listBoxPagos.DataSource = club.Pagos;
+
+                listBoxPagos.ClearSelected();
+            }
+        }
+
+        private void BorrarPago_Click(object sender, EventArgs e)
+        {
+            Pago pago = (Pago)this.listBoxPagos.SelectedItem;
+
+            if (pago != null)
+            {
+                club.removerPago(pago);
+
+                listBoxPagos.DataSource = null;
+                listBoxPagos.DataSource = club.Pagos;
+
+                listBoxPagos.ClearSelected();
+            }
+            else
+            {
+                MessageBox.Show("No hay pago seleccionado :(");
+            }
+        }
+
+        private void Principal_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
+            DialogResult dr = MessageBox.Show("¿Quiere realizar un guardado?", "Guardar datos", MessageBoxButtons.YesNo);
+
+            if (dr == DialogResult.Yes)
+            {
+                this.club.guardar();
             }
         }
     }

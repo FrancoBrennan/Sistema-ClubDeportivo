@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public class SocioClub : Socio
     {
         private float cuotaSocial;

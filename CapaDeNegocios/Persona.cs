@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public abstract class Persona
     {
         private int dni;

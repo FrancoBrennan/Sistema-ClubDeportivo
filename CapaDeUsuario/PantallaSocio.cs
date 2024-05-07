@@ -132,10 +132,12 @@ namespace CapaDeUsuario
             this.Close();
         }
 
+        /*
         private void checkBox1_CheckStateChanged(object sender, EventArgs e)
         {
            label4.Visible = checkBox1.Checked;
            textBox4.Visible = checkBox1.Checked;
         }
+        */
     }
 }

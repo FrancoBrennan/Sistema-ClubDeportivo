@@ -108,7 +108,7 @@
             this.checkBox1.TabIndex = 10;
             this.checkBox1.Text = "¿Socio club?";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckStateChanged += new System.EventHandler(this.checkBox1_CheckStateChanged);
+            //this.checkBox1.CheckStateChanged += new System.EventHandler(this.checkBox1_CheckStateChanged);
             // 
             // textBox4
             // 

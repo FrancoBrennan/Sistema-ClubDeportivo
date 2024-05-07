@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CapaDeNegocios
 {
+    [Serializable]
     public abstract class Socio : Persona
     {
         private string email;
