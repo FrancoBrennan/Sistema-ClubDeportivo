@@ -61,7 +61,7 @@ namespace CapaDeUsuario
 
         private void Principal_Load(object sender, EventArgs e)
         {
-            string actividades = Microsoft.VisualBasic.Interaction.InputBox("Cantidad máxima de actividades del socio","Actividades del Socio", SocioClub.GetActividadesMax().ToString());
+            string actividades = Microsoft.VisualBasic.Interaction.InputBox("Cantidad máxima de actividades incluidas del socio","Actividades incluidas del Socio Club", SocioClub.GetActividadesMax().ToString());
 
             SocioClub.SetActividadesMax(int.Parse(actividades));
 
@@ -167,19 +167,23 @@ namespace CapaDeUsuario
 
             Socio soc = pantallaSocio.Soc;
 
-            if (!club.verificarSocio(soc))
+            if(soc != null)
             {
-                club.agregarSocio(soc);
+                if (!club.verificarSocio(soc))
+                {
+                    club.agregarSocio(soc);
 
-                listBoxSoc.DataSource = null;
-                listBoxSoc.DataSource = club.Socios;
+                    listBoxSoc.DataSource = null;
+                    listBoxSoc.DataSource = club.Socios;
 
-                listBoxSoc.ClearSelected();
+                    listBoxSoc.ClearSelected();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe un Socio con ese DNI ;)");
+                }
             }
-            else
-            {
-                MessageBox.Show("Ya existe un Socio con ese DNI ;)");
-            }
+
         }
 
         private void ModificarSoc_Click(object sender, EventArgs e)
@@ -237,19 +241,24 @@ namespace CapaDeUsuario
 
             Profesor prof = pantallaProf.Profesor;
 
-            if (!club.verificarProfesor(prof))
+            if(prof != null)
             {
-                club.agregarProfesor(prof);
+                if (!club.verificarProfesor(prof))
+                {
+                    club.agregarProfesor(prof);
 
-                listBoxProf.DataSource = null;
-                listBoxProf.DataSource = club.Profesores;
+                    listBoxProf.DataSource = null;
+                    listBoxProf.DataSource = club.Profesores;
 
-                listBoxProf.ClearSelected();
+                    listBoxProf.ClearSelected();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe un Profesor con ese DNI o Legajo ;)");
+                }
             }
-            else
-            {
-                MessageBox.Show("Ya existe un Profesor con ese DNI o Legajo ;)");
-            }
+
+            
         }
 
 
@@ -308,19 +317,23 @@ namespace CapaDeUsuario
 
             Clase clase = pantallaClase.Clase;
 
-            if (!club.verificarClase(clase))
+            if(clase != null)
             {
-                club.agregarClase(clase);
+                if (!club.verificarClase(clase))
+                {
+                    club.agregarClase(clase);
 
-                listBoxClases.DataSource = null;
-                listBoxClases.DataSource = club.Clases;
+                    listBoxClases.DataSource = null;
+                    listBoxClases.DataSource = club.Clases;
 
-                listBoxClases.ClearSelected();
+                    listBoxClases.ClearSelected();
+                }
+                else
+                {
+                    MessageBox.Show("Ya existe una Clase con ese Id ;)");
+                }
             }
-            else
-            {
-                MessageBox.Show("Ya existe una Clase con ese Id ;)");
-            }
+
         }
 
         private void ModificarClase_Click(object sender, EventArgs e)
@@ -468,17 +481,25 @@ namespace CapaDeUsuario
 
             if (pago != null)
             {
-                club.removerPago(pago);
 
-                listBoxPagos.DataSource = null;
-                listBoxPagos.DataSource = club.Pagos;
+                DialogResult dr = MessageBox.Show("¿Estas seguro que desea eliminar al Socio?", "Eliminar", MessageBoxButtons.YesNo);
 
-                listBoxPagos.ClearSelected();
+                if (dr == DialogResult.Yes)
+                {
+                    club.removerPago(pago);
+
+                    listBoxPagos.DataSource = null;
+                    listBoxPagos.DataSource = club.Pagos;
+
+                    listBoxPagos.ClearSelected();
+                }
+                    
             }
             else
             {
                 MessageBox.Show("No hay pago seleccionado :(");
             }
+
         }
 
         private void Principal_FormClosed(object sender, FormClosedEventArgs e)

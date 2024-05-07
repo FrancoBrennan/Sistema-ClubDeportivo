@@ -26,6 +26,9 @@ namespace CapaDeUsuario
             this.maskedTextBox1.Text = prof.Legajo.ToString();
             this.dateTimePicker1.Text = prof.FechaNac.ToString();
 
+
+            this.textBox1.ReadOnly = true;
+            this.maskedTextBox1.ReadOnly = true;
         }
 
         //Este para crear

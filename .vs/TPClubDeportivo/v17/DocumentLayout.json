@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallasocioclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallasocioclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +47,8 @@
       "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallasocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallasocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallasocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,20 +63,24 @@
       "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallasocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallasocio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,36 +95,12 @@
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaprofesor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,7 +163,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -167,20 +171,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PantallaSocioClase.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocioClase.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaSocioClase.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowEEAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "PantallaSocio.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocio.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaSocio.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:05:35.715Z",
+              "WhenOpened": "2024-04-23T23:56:19.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "PantallaSocioClase.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs",
               "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocioClase.cs",
@@ -192,58 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
-              "RelativeToolTip": "CapaDeUsuario\\Principal.cs",
-              "ViewState": "AQIAAHMBAAAAAAAAAAAqwIsBAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:18:00.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PantallaClase.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwJEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:53:32.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PantallaClase.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:53:25.432Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PantallaActividad.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaActividad.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaActividad.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaActividad.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaActividad.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAnwD4AAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T00:09:51.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PantallaActividad.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaActividad.cs",
               "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaActividad.cs",
@@ -255,20 +208,197 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Clase.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Clase.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAA7wGgAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "Principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:06:58.169Z",
+              "WhenOpened": "2024-04-10T00:16:07.43Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
+              "RelativeToolTip": "CapaDeUsuario\\Principal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T00:18:00.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PantallaSocio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocio.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaSocio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:55:20.371Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PantallaProfesor.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaProfesor.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaProfesor.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T23:55:06.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PantallaClase.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:53:32.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Club.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAA6wI0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:55:20.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PantallaProfesor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaProfesor.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaProfesor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T23:53:38.167Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PantallaPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaPago.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T04:29:37.166Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PantallaPago.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaPago.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaPago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T22:36:21.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PantallaSocioClase.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocioClase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaSocioClase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T19:05:35.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PantallaClase.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:53:25.432Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PantallaActividad.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaActividad.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaActividad.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaActividad.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaActividad.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T00:09:51.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Persona.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Persona.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:37:32.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SocioClub.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioClub.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:59:06.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\Datos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
+              "RelativeToolTip": "CapaDeDatos\\Datos.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:25:43.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "PantallaSocio.Designer.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.Designer.cs",
               "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocio.Designer.cs",
@@ -281,58 +411,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PantallaSocio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocio.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaSocio.cs [Dise\u00F1o]",
+              "DocumentIndex": 19,
+              "Title": "Clase.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Clase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAA7wGgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:55:20.371Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PantallaSocio.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaSocio.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocio.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaSocio.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAIwIwAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:56:19.478Z",
+              "WhenOpened": "2024-04-10T00:06:58.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Club.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Club.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAcwH0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:55:20.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Persona.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Persona.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwBoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:32.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Socio.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Socio.cs",
@@ -345,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Profesor.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Profesor.cs",
@@ -358,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Actividad.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Actividad.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Actividad.cs",
@@ -371,45 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:16:07.43Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SocioClub.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioClub.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
-              "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA9wB0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:59:06.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Datos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\Datos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
-              "RelativeToolTip": "CapaDeDatos\\Datos.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:25:43.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "SocioActividad.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\SocioActividad.cs",
@@ -422,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Pago.cs",
@@ -435,44 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "PantallaProfesor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaProfesor.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaProfesor.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:53:38.167Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PantallaProfesor.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaProfesor.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaProfesor.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:55:06.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "PantallaPago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaPago.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T04:29:37.166Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "PantallaProfesor.Designer.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaProfesor.Designer.cs",
               "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaProfesor.Designer.cs",
@@ -485,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Principal.Designer.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.Designer.cs",
               "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.Designer.cs",
@@ -498,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Clase.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Clase.cs",
@@ -509,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Pago.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Pago.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Pago.cs",
@@ -520,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Socio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Socio.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Socio.cs",
@@ -531,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Profesor.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Profesor.cs",
@@ -542,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
@@ -554,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Club.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.cs",
@@ -565,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Club.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.Designer.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeUsuario\\Club.Designer.cs",
@@ -577,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Actividad.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Actividad.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Actividad.cs",
@@ -589,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Persona.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Persona.cs",
@@ -600,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Profesor.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Profesor.cs",
@@ -612,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Clase.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Clase.cs",
@@ -624,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "SocioActividad.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioActividad.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioActividad.cs",
@@ -636,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "SocioClub.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioClub.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\SocioClub.cs",
@@ -648,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Socio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Socio.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Socio.cs",
@@ -660,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Club.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\Usuario\\OneDrive - Universidad de Moron\\Electiva de programaci\u00F3n\\CapaDeNegocios\\Club.cs",

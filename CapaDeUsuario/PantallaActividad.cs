@@ -21,6 +21,8 @@ namespace CapaDeUsuario
             this.textBox1.Text = act.Id.ToString();
             this.textBox2.Text = act.Nombre.ToString();
             this.textBox3.Text = act.Precio.ToString();
+
+            this.textBox1.ReadOnly = true;
         }
 
         public PantallaActividad()
@@ -50,13 +52,10 @@ namespace CapaDeUsuario
 
                 float precio;
 
-                
-
                 if (!float.TryParse(textBox3.Text,out precio)) {
                     throw new Exception("Formato incorrecto !");
                 }
 
-                
                 
                 if (act == null)
                 {

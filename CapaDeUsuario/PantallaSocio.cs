@@ -35,6 +35,8 @@ namespace CapaDeUsuario
             label4.Visible = soc.usaCuota();
             textBox4.Visible = soc.usaCuota();
             checkBox1.Visible = false;
+
+            this.textBox1.ReadOnly = true;
         }
 
         //Este para crear

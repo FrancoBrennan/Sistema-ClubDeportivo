@@ -39,6 +39,8 @@ namespace CapaDeUsuario
             this.comboBox3.Text = clase.Dia.ToString();
 
             this.listBox1.DataSource = clase.Socios;
+
+            this.textBox1.ReadOnly = true;
         }
 
         //Este para crear
