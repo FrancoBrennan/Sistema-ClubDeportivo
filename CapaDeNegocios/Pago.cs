@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +21,13 @@ namespace CapaDeNegocios
             this.fechaPaga = fechaPaga;
             this.socio = socio;
             this.montoTotal = montoTotal;
+        }
+
+
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
         }
 
         public override string ToString()

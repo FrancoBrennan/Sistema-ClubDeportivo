@@ -21,7 +21,8 @@ namespace CapaDeUsuario
 
             //Carga los datos guardados
 
-            this.club = Club.Cargar();
+            //this.club = Club.Cargar();
+            this.club = new Club();
 
             //Carga todos los listbox con los datos cargados
 
@@ -502,15 +503,18 @@ namespace CapaDeUsuario
 
         }
 
+        
         private void Principal_FormClosed(object sender, FormClosedEventArgs e)
         {
-            
+            /*
             DialogResult dr = MessageBox.Show("¿Quiere realizar un guardado?", "Guardar datos", MessageBoxButtons.YesNo);
 
             if (dr == DialogResult.Yes)
             {
                 this.club.guardar();
             }
+            */
         }
+        
     }
 }
