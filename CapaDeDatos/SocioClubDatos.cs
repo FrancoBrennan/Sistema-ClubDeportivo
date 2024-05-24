@@ -18,7 +18,7 @@ namespace CapaDeDatos
 
         public int agregar(int dni, string nom, DateTime fechaNac, float CuotaSocial, string Email, string Direccion)
         {
-            string query = "INSERT INTO SocioClub (DNI, Nombre, FechaNacimiento, CuotaSocial, Email, Direccion) VALUES (@dni, @nombre, @fechaNac, @CuotaSocial, @Email, @Direccion)";
+            string query = "INSERT INTO SocioClub (DNI, Nombre, CuotaSocial, Email, Direccion, FechaNacimiento) VALUES (@dni, @nombre, @CuotaSocial, @Email, @Direccion, @fechaNac)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))

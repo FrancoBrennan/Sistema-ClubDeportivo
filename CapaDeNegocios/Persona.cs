@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace CapaDeNegocios
         private string nombre;
         private DateTime fechaNac;
         protected List<Clase> clases;
+        private ProfesorDatos profesorDatos;
 
         public Persona(int dni, string nombre, DateTime fechaNac)
         {
@@ -64,15 +66,17 @@ namespace CapaDeNegocios
             get { return fechaNac; } set { fechaNac = value; }
         }
 
-        public void agregarClase(Clase c)
+        public List<Clase> Clases
         {
-            clases.Add(c);
+            get { return clases; }
+            set { clases = value; }
         }
 
-        public void quitarClase(Clase c)
-        {
-            clases.Remove(c);
-        }
+        public abstract void agregarClase(Clase c); //Modificado para BD
+        
+
+        public abstract void quitarClase(Clase c); //Modificado para BD
+        
 
 
     }

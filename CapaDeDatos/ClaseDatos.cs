@@ -18,7 +18,7 @@ namespace CapaDeDatos
 
         public int agregar(int ID, string dia, int hora, int cupoMax)
         {
-            string query = "INSERT INTO Clase (ID, DIA, HORA, CUPOMAX) VALUES (@ID, @Dia, @Hora, @CupoMaximo)";
+            string query = "INSERT INTO Clase (ID, Dia, Hora, CupoMaximo) VALUES (@ID, @Dia, @Hora, @CupoMaximo)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))

@@ -408,6 +408,7 @@ namespace CapaDeUsuario
 
                         clase.agregarSocio(socio);
                         socio.agregarClase(clase);
+                        //clase.agregarRelacionConSocio(socio); // Agregado para Base de Datos.
 
                         listBoxClases.DataSource = null;
                         listBoxClases.DataSource = club.Clases;
@@ -443,6 +444,7 @@ namespace CapaDeUsuario
                 {
                     clase.quitarSocio(socio);
                     socio.quitarClase(clase);
+                    //clase.removerRelacionConSocio(socio); // Agregado para Base de Datos.
 
                     listBoxClases.DataSource = null;
                     listBoxClases.DataSource = club.Clases;

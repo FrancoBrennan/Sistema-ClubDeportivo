@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,9 @@ namespace CapaDeNegocios
         private List<Socio> socios;
         private Profesor prof;
         private int cupoMax;
+        private ActividadClaseDatos actClasDat;
+        private ProfesorClaseDatos profClasDat;
+        private SocioClaseDatos socClasDat;
 
         public Clase(int id, Actividad act, string dia, int hora, List<Socio> socios, Profesor prof, int cupoMax)
         {
@@ -26,6 +30,11 @@ namespace CapaDeNegocios
             this.socios = socios;
             this.prof = prof;
             this.cupoMax = cupoMax;
+
+            actClasDat = new ActividadClaseDatos();
+            profClasDat = new ProfesorClaseDatos();
+            socClasDat = new SocioClaseDatos();
+
         }
 
         public int Id
@@ -74,6 +83,7 @@ namespace CapaDeNegocios
         {
             if (!verificarSocio(newSocio) && verificarCupo())
             {
+                socClasDat.agregarRelacion(newSocio.Dni, this.id);
                 socios.Add(newSocio);
             }
             
@@ -91,6 +101,7 @@ namespace CapaDeNegocios
 
         public void quitarSocio(Socio s)
         {
+            socClasDat.removerRelacion(s.Dni, this.id);
             socios.Remove(s);
         }
 
@@ -114,7 +125,19 @@ namespace CapaDeNegocios
 
         public override string ToString()
         {
-            return this.id + "-" + this.act.Nombre + "-" + this.dia + "-" + this.hora + " hs.";
+            return this.id + "-" + this.act.Nombre + "-" + this.dia + "-" + this.hora + " hs."; //Arreglar esto
         }
+
+        /*
+        public void agregarRelacionConSocio(Socio soc)
+        {
+            socClasDat.agregarRelacion(soc.Dni, this.id);
+        }
+
+        public void removerRelacionConSocio(Socio soc)
+        {
+            socClasDat.removerRelacion(soc.Dni,this.id);
+        }
+        */
     }
 }

@@ -125,6 +125,7 @@ namespace CapaDeNegocios
         public void agregarPago(Pago newPago)
         {
             this.pagos.Add(newPago);
+            //pagoDatos.agregar(newPago.Id,newPag);
         }
 
         public void removerActividad(Actividad act)
@@ -142,7 +143,17 @@ namespace CapaDeNegocios
 
         public void removerSocio(Socio soc)
         {
+            if (soc is SocioClub)
+            {
+                socioClubDatos.eliminar(soc.Dni);
+            }
+            else
+            {
+                socioActividadDatos.eliminar(soc.Dni);
+            }
+
             socios.Remove(soc);
+            
         }
 
         public void removerProfesor(Profesor prof)
@@ -219,7 +230,7 @@ namespace CapaDeNegocios
 
             while (readers.Read())
             {
-                Actividad nuevaAct = new Actividad((int)(long)readers["ID"], (string)readers["Nombre"], (float)readers["Precio"], null);
+                Actividad nuevaAct = new Actividad((int)(long)readers["ID"], (string)readers["Nombre"], (float)(double)readers["Precio"], null);
                 actividades.Add(nuevaAct);
             }
 
@@ -228,6 +239,7 @@ namespace CapaDeNegocios
             while (readers.Read())
             {
                 Clase nuevaClase = new Clase((int)(long)readers["ID"], null,(string)readers["Dia"], (int)(long)readers["Hora"], null, null, (int)(long)readers["CupoMaximo"]);
+                clases.Add(nuevaClase);
             }
 
             readers = pagoDatos.listar();
@@ -235,6 +247,7 @@ namespace CapaDeNegocios
             while (readers.Read())
             {
                 Pago nuevoPago = new Pago((int)(long)readers["ID"], DateTime.Parse((string)readers["FechaPaga"]), null, (float)readers["MontoTotal"]);
+                pagos.Add(nuevoPago);
             }
 
             readers = socioActividadDatos.listar();
@@ -242,6 +255,7 @@ namespace CapaDeNegocios
             while (readers.Read())
             {
                 SocioActividad nuevoSocAct = new SocioActividad((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"]);
+                socios.Add(nuevoSocAct);
             }
 
             readers = socioClubDatos.listar();
@@ -249,6 +263,7 @@ namespace CapaDeNegocios
             while (readers.Read())
             {
                 SocioClub nuevoSocClub = new SocioClub((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"], (float)readers["CuotaSocial"]);
+                socios.Add(nuevoSocClub);
             }
 
             readers.Close();

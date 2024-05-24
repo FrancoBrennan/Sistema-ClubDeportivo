@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,10 +10,13 @@ namespace CapaDeNegocios
     [Serializable]
     public class SocioActividad : Socio
     {
+        
         public SocioActividad(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac, email, direccion)
         {
-            
+
         }
+
+        
 
         public override float calcularMontoTotal()
         {
@@ -25,5 +29,7 @@ namespace CapaDeNegocios
 
             return total;
         }
+
+        
     }
 }

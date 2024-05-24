@@ -87,20 +87,5 @@ namespace CapaDeDatos
             
         }
 
-        public int removerRelacion(int id)
-        {
-            string query = "DELETE FROM Actividad where IDActividad = @ID";
-
-            // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
-            {
-                // Agregar parámetros al comando
-                cmd.Parameters.AddWithValue("@ID", id);
-
-                return this.con.ejecutarComando(cmd);
-            }
-
-        }
-
     }
 }
