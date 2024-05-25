@@ -22,13 +22,12 @@ namespace CapaDeNegocios
         private SocioClaseDatos socClasDat;
         private ClaseDatos claseDatos;
 
-        public Clase(int id, Actividad act, string dia, int hora, List<Socio> socios, Profesor prof, int cupoMax)
+        public Clase(int id, Actividad act, string dia, int hora, Profesor prof, int cupoMax)  //Se quitó la lista de clases
         {
             this.id = id;
             this.act = act;
             this.dia = dia;
             this.hora = hora;
-            this.socios = socios;
             this.prof = prof;
             this.cupoMax = cupoMax;
 
@@ -36,6 +35,7 @@ namespace CapaDeNegocios
             profClasDat = new ProfesorClaseDatos();
             socClasDat = new SocioClaseDatos();
             claseDatos = new ClaseDatos();
+            socios = new List<Socio>();
 
         }
 

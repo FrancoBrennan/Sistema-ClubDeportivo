@@ -33,8 +33,8 @@ namespace CapaDeDatos
             using (SqliteCommand cmd = new SqliteCommand(query))
             {
                 // Agregar parámetros al comando
-                cmd.Parameters.AddWithValue("@idClase", idClase);
                 cmd.Parameters.AddWithValue("@socDni", socDni);
+                cmd.Parameters.AddWithValue("@idClase", idClase);
 
                 return this.conexion.ejecutarComando(cmd);
             }

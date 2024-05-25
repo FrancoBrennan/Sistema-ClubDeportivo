@@ -248,7 +248,7 @@ namespace CapaDeNegocios
 
             while (readers.Read())
             {
-                Clase nuevaClase = new Clase((int)(long)readers["ID"], null,(string)readers["Dia"], (int)(long)readers["Hora"], null, null, (int)(long)readers["CupoMaximo"]);
+                Clase nuevaClase = new Clase((int)(long)readers["ID"], null,(string)readers["Dia"], (int)(long)readers["Hora"], null, (int)(long)readers["CupoMaximo"]);
                 clases.Add(nuevaClase);
             }
 

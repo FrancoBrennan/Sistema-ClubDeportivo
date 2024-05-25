@@ -14,7 +14,6 @@ namespace CapaDeNegocios
         private string nombre;
         private DateTime fechaNac;
         protected List<Clase> clases;
-        private ProfesorDatos profesorDatos;
 
         public Persona(int dni, string nombre, DateTime fechaNac)
         {

@@ -114,7 +114,7 @@ namespace CapaDeUsuario
 
                 if (clase == null)
                 {
-                    this.clase = new Clase(id, actividad, dia, hora, new List<Socio>(), profesor, cupo);
+                    this.clase = new Clase(id, actividad, dia, hora, profesor, cupo); //Se quitó la lista de clases
                 }
                 else
                 {
@@ -140,7 +140,6 @@ namespace CapaDeUsuario
                     //BD: Crear relacion con profesor nuevo
 
                     this.clase.Prof.agregarClaseBD(clase);
-
 
                     //BD: Modificar la Clase en la BD
 
