@@ -23,6 +23,7 @@ namespace CapaDeNegocios
             this.precio = precio;
             this.clases = clases;
             this.clases = new List<Clase>();
+            actClaseDatos = new ActividadClaseDatos();
         }
 
         public Actividad()

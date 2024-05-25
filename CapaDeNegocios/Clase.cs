@@ -20,6 +20,7 @@ namespace CapaDeNegocios
         private ActividadClaseDatos actClasDat;
         private ProfesorClaseDatos profClasDat;
         private SocioClaseDatos socClasDat;
+        private ClaseDatos claseDatos;
 
         public Clase(int id, Actividad act, string dia, int hora, List<Socio> socios, Profesor prof, int cupoMax)
         {
@@ -34,6 +35,7 @@ namespace CapaDeNegocios
             actClasDat = new ActividadClaseDatos();
             profClasDat = new ProfesorClaseDatos();
             socClasDat = new SocioClaseDatos();
+            claseDatos = new ClaseDatos();
 
         }
 
@@ -140,9 +142,11 @@ namespace CapaDeNegocios
             return this.id + "-" + this.act.Nombre + "-" + this.dia + "-" + this.hora + " hs."; //Arreglar esto
         }
 
+        public  void modificarClaseBD()
+        {
+            this.claseDatos.modificar(this.Id, this.dia, this.hora, this.cupoMax);
+        }
         
-
-        /*
         public void agregarRelacionConSocio(Socio soc)
         {
             socClasDat.agregarRelacion(soc.Dni, this.id);
@@ -152,6 +156,6 @@ namespace CapaDeNegocios
         {
             socClasDat.removerRelacion(soc.Dni,this.id);
         }
-        */
+        
     }
 }

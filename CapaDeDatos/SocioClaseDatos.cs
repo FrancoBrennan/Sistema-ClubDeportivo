@@ -34,7 +34,7 @@ namespace CapaDeDatos
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@idClase", idClase);
-                cmd.Parameters.AddWithValue("@SocDni", socDni);
+                cmd.Parameters.AddWithValue("@socDni", socDni);
 
                 return this.conexion.ejecutarComando(cmd);
             }

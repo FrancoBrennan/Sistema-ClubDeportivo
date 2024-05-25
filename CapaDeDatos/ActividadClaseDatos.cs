@@ -21,7 +21,7 @@ namespace CapaDeDatos
 
         public SqliteDataReader listarRelaciones()
         {
-            string query = "SELECT IDActividad, IDClase FROM ActividadClase";
+            string query = "SELECT IDClase, IDActividad FROM ActividadClase";
             SqliteCommand command = new SqliteCommand(query);
             return conexion.ejecutarSelect(command);
         }
@@ -36,7 +36,7 @@ namespace CapaDeDatos
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@IdClase", idClase);
-                cmd.Parameters.AddWithValue("@IdActividad", idAct);
+                cmd.Parameters.AddWithValue("@IdAct", idAct);
 
                 return this.conexion.ejecutarComando(cmd);
             }
@@ -45,7 +45,7 @@ namespace CapaDeDatos
 
         public int agregarRelacion(int idAct, int idClase)
         {
-            string query = "INSERT INTO ActividadClase (IDClase, IDActividad) VALUES (@IDClase, @IDActividad)";
+            string query = "INSERT INTO ActividadClase (IDClase, IDActividad) VALUES (@IDClase, @IdActividad)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))

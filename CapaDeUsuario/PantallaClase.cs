@@ -140,6 +140,11 @@ namespace CapaDeUsuario
                     //BD: Crear relacion con profesor nuevo
 
                     this.clase.Prof.agregarClaseBD(clase);
+
+
+                    //BD: Modificar la Clase en la BD
+
+                    this.clase.modificarClaseBD();
                 }
 
 
