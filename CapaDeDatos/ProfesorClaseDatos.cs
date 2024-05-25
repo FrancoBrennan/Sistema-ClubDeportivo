@@ -55,22 +55,22 @@ namespace CapaDeDatos
         }
 
         // REMOVER con unicamente idAct
-        public int removerRelacionIdAct(int idAct)
+        public int removerRelacionDniProf(int dni)
         {
-            string query = "DELETE FROM ActividadClase WHERE IDActividad = @IDAct";
+            string query = "DELETE FROM ProfesorClase WHERE ProfeDNI = @dni";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))
             {
                 // Agregar parámetros al comando
-                cmd.Parameters.AddWithValue("@IDAct", idAct);
+                cmd.Parameters.AddWithValue("@IDAct", dni);
 
                 return this.conexion.ejecutarComando(cmd);
             }
         }
 
         // REMOVER con unicamente idCom
-        public int removerRelacionIdCom(int idClase)
+        public int removerRelacionIdClase(int idClase)
         {
             string query = "DELETE FROM ActividadClase WHERE IDClase = @IDClase";
 

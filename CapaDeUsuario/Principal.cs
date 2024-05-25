@@ -322,7 +322,14 @@ namespace CapaDeUsuario
             {
                 if (!club.verificarClase(clase))
                 {
+                    //BD: Lo agrega a la Base de Datos
                     club.agregarClase(clase);
+
+                    //BD: Se crea la relación entre Actividad y Clase
+                    clase.Act.agregarClaseBD(clase);
+
+                    //BD: Se crea la relación entre Profesor y Clase
+                    clase.Prof.agregarClaseBD(clase);
 
                     listBoxClases.DataSource = null;
                     listBoxClases.DataSource = club.Clases;

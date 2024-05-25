@@ -14,6 +14,7 @@ namespace CapaDeNegocios
         private string email;
         private string direccion;
         private SocioClaseDatos claseDatos;
+        
 
         public Socio(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac)
         {
@@ -32,9 +33,10 @@ namespace CapaDeNegocios
 
         public override void agregarClase(Clase c)
         {
-            this.ClaseDatos.agregarRelacion(this.Dni, c.Id);
             this.Clases.Add(c);
         }
+
+        public abstract void removerDeTodaLaBD();
 
         public SocioClaseDatos ClaseDatos
         {

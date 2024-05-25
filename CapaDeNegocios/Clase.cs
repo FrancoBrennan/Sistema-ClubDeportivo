@@ -83,7 +83,6 @@ namespace CapaDeNegocios
         {
             if (!verificarSocio(newSocio) && verificarCupo())
             {
-                socClasDat.agregarRelacion(newSocio.Dni, this.id);
                 socios.Add(newSocio);
             }
             
@@ -101,7 +100,6 @@ namespace CapaDeNegocios
 
         public void quitarSocio(Socio s)
         {
-            socClasDat.removerRelacion(s.Dni, this.id);
             socios.Remove(s);
         }
 
@@ -123,10 +121,26 @@ namespace CapaDeNegocios
             this.prof = null;
         }
 
+        public void removerRelacionesSocios()
+        {
+            foreach(Socio soc in socios)
+            {
+                soc.quitarClase(this);
+            }
+        }
+
+        public void removerRelacionProfesor()
+        {
+            profClasDat.removerRelacionIdClase(this.Id);
+        }
+
+        
         public override string ToString()
         {
             return this.id + "-" + this.act.Nombre + "-" + this.dia + "-" + this.hora + " hs."; //Arreglar esto
         }
+
+        
 
         /*
         public void agregarRelacionConSocio(Socio soc)

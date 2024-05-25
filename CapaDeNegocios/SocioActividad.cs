@@ -10,10 +10,12 @@ namespace CapaDeNegocios
     [Serializable]
     public class SocioActividad : Socio
     {
+
+        private SocioActividadDatos actDat;
         
         public SocioActividad(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac, email, direccion)
         {
-
+            this.actDat = new SocioActividadDatos();
         }
 
         
@@ -30,6 +32,20 @@ namespace CapaDeNegocios
             return total;
         }
 
-        
+        public override void removerDeTodaLaBD()
+        {
+            //Elimino todas las relaciones en la Tabla SocioClase
+
+            this.ClaseDatos.removerRelacionPorDni(this.Dni);
+
+            //Elimino al Socio de la BD
+
+            this.actDat.eliminar(this.Dni);
+
+            foreach (Clase c in this.Clases)
+            {
+                c.quitarSocio(this);
+            }
+        }
     }
 }

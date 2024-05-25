@@ -27,14 +27,18 @@ namespace CapaDeNegocios
 
         public override void agregarClase(Clase c)
         {
-            profClasDat.agregarRelacion(this.Dni, c.Id);
             clases.Add(c);
         }
 
         public override void quitarClase(Clase c)
         {
-            profClasDat.removerRelacion(c.Id, this.Dni);
+            this.quitarClaseBD(c);
             clases.Remove(c);
+        }
+
+        public void quitarClaseBD(Clase c)
+        {
+            profClasDat.removerRelacion(c.Id, this.Dni);
         }
 
         public void removerDeClases()
@@ -42,6 +46,11 @@ namespace CapaDeNegocios
             foreach(Clase clase in this.clases) {
                 clase.removerProfesor();
             }
+        }
+
+        public void agregarClaseBD(Clase c)
+        {
+            profClasDat.agregarRelacion(this.Dni,c.Id);
         }
 
     }

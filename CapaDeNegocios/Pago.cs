@@ -30,6 +30,20 @@ namespace CapaDeNegocios
             set { id = value; }
         }
 
+        public DateTime FechaPaga
+        {
+            get { return fechaPaga; }
+            set { fechaPaga = value; }
+        }
+
+        public float MontoTotal
+        {
+            get { return montoTotal; }
+            set { montoTotal = value; }
+        }
+
+
+
         public override string ToString()
         {
             return id + "-" + montoTotal + "-" + fechaPaga + "-" + socio.Nombre;

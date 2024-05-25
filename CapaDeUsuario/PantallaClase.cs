@@ -121,8 +121,25 @@ namespace CapaDeUsuario
                     this.clase.CupoMax = cupo;
                     this.clase.Dia = dia;
                     this.clase.Hora = hora;
+
+                    //BD: Eliminar relacion con actividad vieja
+                    this.clase.Act.quitarClaseBD(clase);
+
                     this.clase.Act = actividad;
+
+                    //BD: Crear relacion con actividad nueva
+
+                    this.clase.Act.agregarClaseBD(clase);
+
+                    //BD: Eliminar relacion con profesor viejo
+
+                    this.clase.Prof.quitarClaseBD(clase);
+
                     this.clase.Prof = profesor;
+
+                    //BD: Crear relacion con profesor nuevo
+
+                    this.clase.Prof.agregarClaseBD(clase);
                 }
 
 

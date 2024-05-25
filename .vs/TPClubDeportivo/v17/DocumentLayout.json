@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,60 +15,72 @@
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\clasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\clasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\profesordatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\profesordatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\actividadclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\actividadclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\actividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\actividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\actividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\actividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\clasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\clasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\actividadclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\actividadclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\profesordatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\profesordatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\socioclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\pagodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -207,17 +207,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
               "RelativeToolTip": "CapaDeNegocios\\Club.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAmwKAAAAApAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwv28AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T23:55:20.909Z",
               "IsPinned": true,
@@ -245,91 +245,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Persona.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Persona.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwEcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:32.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PantallaClase.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
-              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAcwHwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:53:32.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
-              "RelativeToolTip": "CapaDeUsuario\\Principal.cs",
-              "ViewState": "AQIAADYBAAAAAAAAAAAWwDoBAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:11:57.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SocioClubDatos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClubDatos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\SocioClubDatos.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBQAAACyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:27:24.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Socio.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Socio.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Socio.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:44.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SocioClaseDatos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClaseDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClaseDatos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClaseDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\SocioClaseDatos.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAA7wFMAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:06:25.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Clase.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Clase.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
               "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAADgv38AAABvAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAWwG0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T00:06:58.169Z",
               "EditorCaption": ""
@@ -337,92 +259,118 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Profesor.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Profesor.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Profesor.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Profesor.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAQwCEAAAAoAAAA",
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\Principal.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs",
+              "RelativeToolTip": "CapaDeUsuario\\Principal.cs",
+              "ViewState": "AQIAAFIBAAAAAAAAAAAiwGABAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:15.188Z",
+              "WhenOpened": "2024-05-23T20:11:57.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SocioActividad.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioActividad.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
-              "RelativeToolTip": "CapaDeNegocios\\SocioActividad.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswCAAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:59:02.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SocioClub.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioClub.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
-              "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAA0wEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:59:06.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ActividadClaseDatos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadClaseDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\ActividadClaseDatos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadClaseDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\ActividadClaseDatos.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAswDUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:06:05.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 4,
               "Title": "Actividad.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Actividad.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Actividad.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Actividad.cs",
               "RelativeToolTip": "CapaDeNegocios\\Actividad.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA8AAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswFUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T23:52:10.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 11,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Pago.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Pago.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T17:46:13.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PantallaClase.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\PantallaClase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaClase.cs",
+              "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAA4wI0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:53:32.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Profesor.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Profesor.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Profesor.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Profesor.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAswDIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:37:15.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ActividadDatos.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadDatos.cs",
               "RelativeDocumentMoniker": "CapaDeDatos\\ActividadDatos.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadDatos.cs",
               "RelativeToolTip": "CapaDeDatos\\ActividadDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAJAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAArwBIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T14:16:36.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Program.cs",
-              "RelativeDocumentMoniker": "CapaDeUsuario\\Program.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Program.cs",
-              "RelativeToolTip": "CapaDeUsuario\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBIAAAAMAAAA",
+              "DocumentIndex": 7,
+              "Title": "ClaseDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ClaseDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\ClaseDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ClaseDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\ClaseDatos.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAUwDcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:44:54.622Z",
+              "WhenOpened": "2024-05-23T14:08:46.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Socio.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Socio.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Socio.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:37:44.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActividadClaseDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadClaseDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\ActividadClaseDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ActividadClaseDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\ActividadClaseDatos.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwB0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:06:05.551Z",
               "EditorCaption": ""
             },
             {
@@ -433,14 +381,102 @@
               "RelativeDocumentMoniker": "CapaDeDatos\\ProfesorClaseDatos.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorClaseDatos.cs",
               "RelativeToolTip": "CapaDeDatos\\ProfesorClaseDatos.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAYwDIAAABBAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwD0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T17:58:08.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "ProfesorDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\ProfesorDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\ProfesorDatos.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:55:31.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SocioClubDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClubDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\SocioClubDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:27:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SocioClub.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioClub.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAAwEsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:59:06.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SocioActividad.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioActividad.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
+              "RelativeToolTip": "CapaDeNegocios\\SocioActividad.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T23:59:02.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SocioClaseDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClaseDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClaseDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClaseDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\SocioClaseDatos.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAA7wFMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:06:25.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Persona.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Persona.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Persona.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T23:37:32.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Program.cs",
+              "RelativeDocumentMoniker": "CapaDeUsuario\\Program.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Program.cs",
+              "RelativeToolTip": "CapaDeUsuario\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAhwBIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T18:44:54.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "SocioActividadDatos.cs",
               "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioActividadDatos.cs",
               "RelativeDocumentMoniker": "CapaDeDatos\\SocioActividadDatos.cs",
@@ -448,46 +484,7 @@
               "RelativeToolTip": "CapaDeDatos\\SocioActividadDatos.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAA5wCAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:01:24.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClaseDatos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ClaseDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\ClaseDatos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ClaseDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\ClaseDatos.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T14:08:46.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProfesorDatos.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\ProfesorDatos.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\ProfesorDatos.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBcAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:55:31.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Pago.cs",
-              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Pago.cs",
-              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Pago.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T17:46:13.436Z"
+              "WhenOpened": "2024-05-23T18:01:24.655Z"
             },
             {
               "$type": "Document",

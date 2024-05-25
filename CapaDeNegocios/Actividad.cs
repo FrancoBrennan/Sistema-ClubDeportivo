@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace CapaDeNegocios
         private string nombre;
         private float precio;
         private List<Clase> clases;
+        private ActividadClaseDatos actClaseDatos;
 
         public Actividad(int id, string nombre, float precio, List<Clase> clases)
         {
@@ -33,9 +35,9 @@ namespace CapaDeNegocios
             clases.Add(c);
         }
 
-        public void quitarClase(Clase c)
+        public void quitarClaseBD(Clase c)
         {
-            clases.Remove(c);
+            actClaseDatos.removerRelacion(c.Id,this.id);
         }
 
         public float Precio
@@ -79,6 +81,11 @@ namespace CapaDeNegocios
         public override string ToString()
         {
             return this.id+" "+this.nombre + " U$D" + this.precio.ToString();
+        }
+
+        public void agregarClaseBD(Clase c)
+        {
+            actClaseDatos.agregarRelacion(this.id, c.Id);
         }
     }
 }

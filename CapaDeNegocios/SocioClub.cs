@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDeDatos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -14,10 +15,12 @@ namespace CapaDeNegocios
         private float cuotaSocial;
         private static int ActMax;
         private static int PorcDesc;
+        private SocioClubDatos clubDatos;
 
         public SocioClub(int dni, string nombre, DateTime fechaNac, string email, string direccion, float cuotaSocial) : base(dni,nombre,fechaNac,email,direccion)
         {
             this.cuotaSocial = cuotaSocial;
+            clubDatos = new SocioClubDatos();
         }
 
         public override bool usaCuota()
@@ -68,5 +71,22 @@ namespace CapaDeNegocios
 
         }
 
+        public override void removerDeTodaLaBD()
+        {
+            //Elimino todas las relaciones en la Tabla SocioClase
+
+            this.ClaseDatos.removerRelacionPorDni(this.Dni);
+
+            //Elimino al Socio de la BD
+
+            this.clubDatos.eliminar(this.Dni);
+
+            foreach(Clase c in this.Clases)
+            {
+                c.quitarSocio(this);
+            }
+
+
+        }
     }
 }

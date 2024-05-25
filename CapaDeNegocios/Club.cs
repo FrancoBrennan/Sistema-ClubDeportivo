@@ -122,35 +122,33 @@ namespace CapaDeNegocios
             profDatos.agregar(newProf.Dni, newProf.Nombre, newProf.FechaNac, newProf.Legajo);
         }
 
-        public void agregarPago(Pago newPago)
-        {
-            this.pagos.Add(newPago);
-            //pagoDatos.agregar(newPago.Id,newPag);
-        }
-
         public void removerActividad(Actividad act)
         {
             foreach (var c in act.Clase)
             {
+                c.removerDeProfesorYSocios();
+
+                // Eliminar relacion del profesor con cada comision de esta actividad
+                c.removerRelacionProfesor();
+
+                // Eliminar relaciones de los socios de cada comision en esta actividad
+                c.removerRelacionesSocios();
+
+                // Eliminar comision de la base de datos
+                claseDatos.eliminar(c.Id);
+
                 clases.Remove(c);
             }
 
-            actividadDatos.eliminar(act.Id);
-
             act.borrarClases();
             actividades.Remove(act);
+
+            actividadDatos.eliminar(act.Id);
         }
 
         public void removerSocio(Socio soc)
         {
-            if (soc is SocioClub)
-            {
-                socioClubDatos.eliminar(soc.Dni);
-            }
-            else
-            {
-                socioActividadDatos.eliminar(soc.Dni);
-            }
+            soc.removerDeTodaLaBD();
 
             socios.Remove(soc);
             
@@ -158,7 +156,11 @@ namespace CapaDeNegocios
 
         public void removerProfesor(Profesor prof)
         {
+
+            profesorClaseDatos.removerRelacionDniProf(prof.Dni);
+
             profDatos.eliminar(prof.Dni);
+
             profesores.Remove(prof);
         }
 
@@ -171,7 +173,14 @@ namespace CapaDeNegocios
             //Hay que agregar a cada clase su respectva clase de la Capa de Datos.
             //Hacer los remover relacion dentro de cada clase.
 
+            
+            actividadClaseDatos.removerRelacion(c.Id,c.Act.Id);
+
+            profesorClaseDatos.removerRelacion(c.Id,c.Prof.Dni);
+
             claseDatos.eliminar(c.Id);
+
+            c.removerRelacionesSocios();
 
             clases.Remove(c);
         }
@@ -208,6 +217,7 @@ namespace CapaDeNegocios
             Pago pago = new Pago(this.pagos.Count, DateTime.Now, socio, total);
             //this.pagoDatos.agregar(ID, FechaPaga, MontoTotal)
             this.pagos.Add(pago);
+            pagoDatos.agregar(pago.Id, pago.FechaPaga, pago.MontoTotal);
         }
 
         private void cargarDatos()
