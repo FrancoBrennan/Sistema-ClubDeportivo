@@ -19,9 +19,7 @@ namespace CapaDeUsuario
         {
             InitializeComponent();
 
-            //Carga los datos guardados
-
-            //this.club = Club.Cargar();
+            //this.club = Club.Cargar(); // <- Codigo para archivos
             this.club = new Club();
 
             //Carga todos los listbox con los datos cargados
@@ -41,24 +39,6 @@ namespace CapaDeUsuario
             listBoxPagos.DataSource = club.Pagos;
             listBoxPagos.ClearSelected();
         }
-
-
-        /*
-        private void profesoresToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void sociosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void pagosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-        */
 
         private void Principal_Load(object sender, EventArgs e)
         {
@@ -325,12 +305,6 @@ namespace CapaDeUsuario
                     //BD: Lo agrega a la Base de Datos
                     club.agregarClase(clase);
 
-                    //BD: Se crea la relación entre Actividad y Clase
-                    clase.Act.agregarClaseBD(clase);
-
-                    //BD: Se crea la relación entre Profesor y Clase
-                    clase.Prof.agregarClaseBD(clase);
-
                     listBoxClases.DataSource = null;
                     listBoxClases.DataSource = club.Clases;
 
@@ -415,7 +389,6 @@ namespace CapaDeUsuario
 
                         clase.agregarSocio(socio);
                         socio.agregarClase(clase);
-                        clase.agregarRelacionConSocio(socio); // Agregado para Base de Datos.
 
                         listBoxClases.DataSource = null;
                         listBoxClases.DataSource = club.Clases;
@@ -451,7 +424,6 @@ namespace CapaDeUsuario
                 {
                     clase.quitarSocio(socio);
                     socio.quitarClase(clase);
-                    clase.removerRelacionConSocio(socio); // Agregado para Base de Datos.
 
                     listBoxClases.DataSource = null;
                     listBoxClases.DataSource = club.Clases;

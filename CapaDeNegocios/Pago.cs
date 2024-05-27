@@ -36,6 +36,13 @@ namespace CapaDeNegocios
             set { fechaPaga = value; }
         }
 
+
+        public Socio Socio
+        {
+            get { return socio; }
+            set { socio = value; }
+        }
+
         public float MontoTotal
         {
             get { return montoTotal; }

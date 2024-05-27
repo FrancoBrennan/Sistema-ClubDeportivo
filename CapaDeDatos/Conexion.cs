@@ -55,17 +55,6 @@ namespace CapaDeDatos
                 comando.Connection = establecerConexion();
 
                 this.conexion.Open();
-                /*
-                string query = "SELECT * FROM Profesor";
-
-                SqliteConnection conexion2 = this.establecerConexion();
-
-                var command = new SqliteCommand(query, conexion2);
-
-                conexion2.Open();
-
-                */
-
                 return comando.ExecuteReader();
 
             }

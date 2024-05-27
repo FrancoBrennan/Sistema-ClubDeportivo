@@ -80,8 +80,10 @@ namespace CapaDeNegocios
             //Elimino al Socio de la BD
 
             this.clubDatos.eliminar(this.Dni);
+            
+            this.borrarPagosDB();
 
-            foreach(Clase c in this.Clases)
+            foreach (Clase c in this.Clases)
             {
                 c.quitarSocio(this);
             }

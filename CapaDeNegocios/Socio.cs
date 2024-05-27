@@ -14,13 +14,14 @@ namespace CapaDeNegocios
         private string email;
         private string direccion;
         private SocioClaseDatos claseDatos;
-        
+        private SocioPagoDatos socioPagoDatos;
 
         public Socio(int dni, string nombre, DateTime fechaNac, string email, string direccion) : base(dni, nombre, fechaNac)
         {
             this.email = email;
             this.direccion = direccion;
             this.claseDatos = new SocioClaseDatos();
+            this.socioPagoDatos = new SocioPagoDatos();
         }
 
         public abstract float calcularMontoTotal();
@@ -37,6 +38,11 @@ namespace CapaDeNegocios
         }
 
         public abstract void removerDeTodaLaBD();
+
+        public void borrarPagosDB()
+        {
+            socioPagoDatos.removerRelacionPorDni(this.Dni);
+        }
 
         public SocioClaseDatos ClaseDatos
         {

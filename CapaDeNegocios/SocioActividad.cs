@@ -41,6 +41,8 @@ namespace CapaDeNegocios
             //Elimino al Socio de la BD
 
             this.actDat.eliminar(this.Dni);
+            
+            this.borrarPagosDB();
 
             foreach (Clase c in this.Clases)
             {

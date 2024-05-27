@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{862A8993-61E3-4E51-8D42-D05055388B7B}|CapaDeUsuario\\CapaDeUsuario.csproj|solutionrelative:capadeusuario\\pantallaclase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -214,7 +214,7 @@
               "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
               "RelativeToolTip": "CapaDeNegocios\\Club.cs",
-              "ViewState": "AQIAAOoAAAAAAAAAAAASwPoAAAB+AAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAvwPoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T23:55:20.909Z",
               "IsPinned": true,
@@ -250,8 +250,7 @@
               "RelativeToolTip": "CapaDeUsuario\\Principal.cs",
               "ViewState": "AQIAAIwBAAAAAAAAAAAhwKEBAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:11:57.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T20:11:57.533Z"
             },
             {
               "$type": "Document",
@@ -263,8 +262,7 @@
               "RelativeToolTip": "CapaDeUsuario\\PantallaClase.cs",
               "ViewState": "AQIAAGoAAAAAAAAAAAASwHQAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T18:53:32.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T18:53:32.608Z"
             },
             {
               "$type": "Document",
@@ -276,8 +274,7 @@
               "RelativeToolTip": "CapaDeUsuario\\PantallaSocioClase.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAwwFYAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:05:35.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T19:05:35.715Z"
             },
             {
               "$type": "Document",
@@ -289,8 +286,7 @@
               "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
               "ViewState": "AQIAAIcAAAAAAAAAAAAjwJcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:06:58.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T00:06:58.169Z"
             },
             {
               "$type": "Document",
@@ -302,8 +298,7 @@
               "RelativeToolTip": "CapaDeDatos\\SocioClaseDatos.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAIA6wCYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:06:25.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T18:06:25.297Z"
             },
             {
               "$type": "Document",
@@ -315,8 +310,7 @@
               "RelativeToolTip": "CapaDeNegocios\\SocioActividad.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAApwBYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:59:02.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:59:02.666Z"
             },
             {
               "$type": "Document",
@@ -328,8 +322,7 @@
               "RelativeToolTip": "CapaDeNegocios\\Socio.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAIAywCEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:44.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T23:37:44.155Z"
             },
             {
               "$type": "Document",
@@ -341,8 +334,7 @@
               "RelativeToolTip": "CapaDeUsuario\\PantallaPago.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAowA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T22:36:21.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-07T22:36:21.362Z"
             },
             {
               "$type": "Document",
@@ -378,8 +370,7 @@
               "RelativeToolTip": "CapaDeNegocios\\Persona.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:32.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T23:37:32.895Z"
             },
             {
               "$type": "Document",
@@ -403,8 +394,7 @@
               "RelativeToolTip": "CapaDeUsuario\\Program.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAhwBIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T18:44:54.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T18:44:54.622Z"
             },
             {
               "$type": "Document",
@@ -416,8 +406,7 @@
               "RelativeToolTip": "CapaDeDatos\\ActividadClaseDatos.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAASwC0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T18:06:05.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T18:06:05.551Z"
             },
             {
               "$type": "Document",
@@ -429,8 +418,7 @@
               "RelativeToolTip": "CapaDeNegocios\\Actividad.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAADgv1gAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:52:10.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T23:52:10.779Z"
             },
             {
               "$type": "Document",
@@ -454,8 +442,7 @@
               "RelativeToolTip": "CapaDeDatos\\SocioClubDatos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T20:27:24.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-23T20:27:24.955Z"
             },
             {
               "$type": "Document",
@@ -467,8 +454,7 @@
               "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAAwEsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T23:59:06.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T23:59:06.254Z"
             },
             {
               "$type": "Document",
@@ -492,8 +478,7 @@
               "RelativeToolTip": "CapaDeNegocios\\Profesor.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAA1wCAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T23:37:15.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T23:37:15.188Z"
             },
             {
               "$type": "Document",
@@ -540,8 +525,7 @@
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaDeUsuario\\Principal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:16:07.43Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-10T00:16:07.43Z"
             },
             {
               "$type": "Document",
@@ -609,8 +593,7 @@
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaSocioClase.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaDeUsuario\\PantallaSocioClase.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T19:05:33.179Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-07T19:05:33.179Z"
             },
             {
               "$type": "Document",
@@ -656,8 +639,7 @@
               "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaDeUsuario\\PantallaPago.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T04:29:37.166Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-07T04:29:37.166Z"
             },
             {
               "$type": "Document",
@@ -693,8 +675,7 @@
               "RelativeToolTip": "CapaDeUsuario\\Principal.Designer.cs",
               "ViewState": "AQIAAIABAAAAAAAAAADgv5ABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T21:32:00.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T21:32:00.1Z"
             },
             {
               "$type": "Document",
