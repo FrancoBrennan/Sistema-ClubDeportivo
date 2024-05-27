@@ -72,20 +72,6 @@ namespace CapaDeUsuario
                     throw new Exception("Formato incorrecto !");
                 }
 
-
-                /*
-                if (soc == null)
-                {
-                    
-                }
-                else
-                {
-                    soc.Id = id;
-                    soc.Nombre = nombre;
-                    soc.Precio = precio;
-                }
-                */
-
                 int dni = int.Parse(textBox1.Text);
                 string nombre = textBox2.Text;
                 DateTime fechaNac = DateTime.Parse(dateTimePicker1.Text);
@@ -134,12 +120,10 @@ namespace CapaDeUsuario
             this.Close();
         }
 
-        /*
         private void checkBox1_CheckStateChanged(object sender, EventArgs e)
         {
            label4.Visible = checkBox1.Checked;
            textBox4.Visible = checkBox1.Checked;
         }
-        */
     }
 }

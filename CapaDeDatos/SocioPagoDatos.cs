@@ -9,48 +9,32 @@ using System.Threading.Tasks;
 
 namespace CapaDeDatos
 {
-    public class SocioClaseDatos
+    public class SocioPagoDatos
     {
         private Conexion conexion;
 
-        public SocioClaseDatos()
+        public SocioPagoDatos()
         {
             conexion = new Conexion();
         }
 
         public SqliteDataReader listarRelaciones()
         {
-            string query = "SELECT SocioDNI,IDClase FROM SocioClase";
+            string query = "SELECT SocioDNI, PagoId FROM SocioPago";
             SqliteCommand command = new SqliteCommand(query);
             return conexion.ejecutarSelect(command);
         }
 
-        public int agregarRelacion(int socDni, int idClase)
+        public int agregarRelacion(int socDni, int idPago)
         {
-            string query = "INSERT INTO SocioClase (SocioDNI, IDClase) VALUES (@socDni, @idClase)";
+            string query = "INSERT INTO SocioPago (SocioDNI, PagoId) VALUES (@socDni, @idPago)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@socDni", socDni);
-                cmd.Parameters.AddWithValue("@idClase", idClase);
-
-                return this.conexion.ejecutarComando(cmd);
-            }
-
-        }
-
-        public int removerRelacion(int socDni, int idClase)
-        {
-            string query = "DELETE FROM SocioClase WHERE IDClase = (@IdClase) AND SocioDNI = (@SocDni)";
-
-            // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
-            {
-                // Agregar parámetros al comando
-                cmd.Parameters.AddWithValue("@IdClase", idClase);
-                cmd.Parameters.AddWithValue("@SocDni", socDni);
+                cmd.Parameters.AddWithValue("@idPago", idPago);
 
                 return this.conexion.ejecutarComando(cmd);
             }
@@ -60,7 +44,7 @@ namespace CapaDeDatos
         // REMOVER con unicamente Dni
         public int removerRelacionPorDni(int dni)
         {
-            string query = "DELETE FROM SocioClase WHERE SocioDNI = (@SocDni)";
+            string query = "DELETE FROM SocioPago WHERE SocioDNI = (@SocDni)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))
@@ -72,16 +56,16 @@ namespace CapaDeDatos
             }
         }
 
-        // REMOVER con unicamente idCom
-        public int removerRelacionPorIdCom(int idClase)
+        // REMOVER por el id de pago
+        public int removerRelacionPorPago(int idPago)
         {
-            string query = "DELETE FROM SocioClase WHERE IDClase = (@IdClase)";
+            string query = "DELETE FROM SocioPago WHERE PagoId = (@idPago)";
 
             // Crear y configurar el comando SQL
             using (SqliteCommand cmd = new SqliteCommand(query))
             {
                 // Agregar parámetros al comando
-                cmd.Parameters.AddWithValue("@IdClase", idClase);
+                cmd.Parameters.AddWithValue("@idPago", idPago);
 
                 return this.conexion.ejecutarComando(cmd);
             }

@@ -71,6 +71,7 @@
     <Compile Include="Datos.cs" />
     <Compile Include="ClaseDatos.cs" />
     <Compile Include="ActividadClaseDatos.cs" />
+    <Compile Include="SocioPagoDatos.cs" />
     <Compile Include="SocioClaseDatos.cs" />
     <Compile Include="ProfesorClaseDatos.cs" />
     <Compile Include="SocioActividadDatos.cs" />

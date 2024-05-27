@@ -27,6 +27,7 @@ namespace CapaDeNegocios
         private ActividadClaseDatos actividadClaseDatos;
         private ProfesorClaseDatos profesorClaseDatos;
         private SocioClaseDatos socioClaseDatos;
+        private SocioPagoDatos socioPagoDatos;
 
         public Club()
         {
@@ -37,11 +38,23 @@ namespace CapaDeNegocios
             this.socioClubDatos = new SocioClubDatos();
             this.socioClaseDatos = new SocioClaseDatos();
             this.socioActividadDatos = new SocioActividadDatos();
+            this.socioPagoDatos = new SocioPagoDatos();
             this.pagoDatos = new PagoDatos();
             this.claseDatos = new ClaseDatos();
 
+            InicializarListas();
             cargarDatos();
             vincularRelacionClases();
+        }
+
+        // Método para inicializar las listas
+        public void InicializarListas()
+        {
+            actividades = new List<Actividad>();
+            socios = new List<Socio>();
+            clases = new List<Clase>();
+            profesores = new List<Profesor>();
+            pagos = new List<Pago>();
         }
 
         public List<Actividad> Actividades
@@ -113,7 +126,12 @@ namespace CapaDeNegocios
         {
             clases.Add(c);
             claseDatos.agregar(c.Id,c.Dia,c.Hora,c.CupoMax);
-            
+
+            //BD: Se crea la relación entre Actividad y Clase
+            c.Act.agregarClaseBD(c);
+
+            //BD: Se crea la relación entre Profesor y Clase
+            c.Prof.agregarClaseBD(c);
         }
 
         public void agregarProfesor(Profesor newProf)
@@ -128,13 +146,7 @@ namespace CapaDeNegocios
             {
                 c.removerDeProfesorYSocios();
 
-                // Eliminar relacion del profesor con cada comision de esta actividad
-                c.removerRelacionProfesor();
-
-                // Eliminar relaciones de los socios de cada comision en esta actividad
-                c.removerRelacionesSocios();
-
-                // Eliminar comision de la base de datos
+                // Eliminar clase de la base de datos
                 claseDatos.eliminar(c.Id);
 
                 clases.Remove(c);
@@ -165,15 +177,7 @@ namespace CapaDeNegocios
         }
 
         public void removerClase(Clase c)
-        {
-            //profesorClaseDatos.removerRelacion(c.Id,c.Prof.Dni);
-
-            //actividadClaseDatos.removerRelacion(c.Id,c.Act.Id);
-
-            //Hay que agregar a cada clase su respectva clase de la Capa de Datos.
-            //Hacer los remover relacion dentro de cada clase.
-
-            
+        {            
             actividadClaseDatos.removerRelacion(c.Id,c.Act.Id);
 
             profesorClaseDatos.removerRelacion(c.Id,c.Prof.Dni);
@@ -188,6 +192,7 @@ namespace CapaDeNegocios
         public void removerPago(Pago p)
         {
             pagoDatos.eliminar(p.Id);
+            socioPagoDatos.removerRelacionPorPago(p.Id);
             pagos.Remove(p);
         }
 
@@ -215,28 +220,37 @@ namespace CapaDeNegocios
         {
             float total = socio.calcularMontoTotal();
             Pago pago = new Pago(this.pagos.Count, DateTime.Now, socio, total);
-            //this.pagoDatos.agregar(ID, FechaPaga, MontoTotal)
             this.pagos.Add(pago);
             pagoDatos.agregar(pago.Id, pago.FechaPaga, pago.MontoTotal);
+            socioPagoDatos.agregarRelacion(socio.Dni, pago.Id);
         }
 
         private void cargarDatos()
         {
-            actividades = new List<Actividad>();
-            socios = new List<Socio>();
-            clases = new List<Clase>();
-            profesores = new List<Profesor>();
-            pagos = new List<Pago>();
+            cargarProfesores();
+            cargarActividades();
+            cargarClases();
+            cargarPagos();
+            cargarSociosActividad();
+            cargarSociosClub();
+        }
 
+        private void cargarProfesores()
+        {
             SqliteDataReader readers = profDatos.listarProfesores();
 
             while (readers.Read())
             {
-               Profesor nuevoProf = new Profesor((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (int)(long)readers["Legajo"]);
-               profesores.Add(nuevoProf);
+                Profesor nuevoProf = new Profesor((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (int)(long)readers["Legajo"]);
+                profesores.Add(nuevoProf);
             }
 
-            readers = actividadDatos.listar();
+            readers.Close();
+        }
+
+        private void cargarActividades()
+        {
+            SqliteDataReader readers = actividadDatos.listar();
 
             while (readers.Read())
             {
@@ -244,23 +258,38 @@ namespace CapaDeNegocios
                 actividades.Add(nuevaAct);
             }
 
-            readers = claseDatos.listar();
+            readers.Close();
+        }
+
+        private void cargarClases()
+        {
+            SqliteDataReader readers = claseDatos.listar();
 
             while (readers.Read())
             {
-                Clase nuevaClase = new Clase((int)(long)readers["ID"], null,(string)readers["Dia"], (int)(long)readers["Hora"], null, (int)(long)readers["CupoMaximo"]);
+                Clase nuevaClase = new Clase((int)(long)readers["ID"], null, (string)readers["Dia"], (int)(long)readers["Hora"], null, (int)(long)readers["CupoMaximo"]);
                 clases.Add(nuevaClase);
             }
 
-            readers = pagoDatos.listar();
+            readers.Close();
+        }
+
+        private void cargarPagos()
+        {
+            SqliteDataReader readers = pagoDatos.listar();
 
             while (readers.Read())
             {
-                Pago nuevoPago = new Pago((int)(long)readers["ID"], DateTime.Parse((string)readers["FechaPaga"]), null, (float)readers["MontoTotal"]);
+                Pago nuevoPago = new Pago((int)(long)readers["ID"], DateTime.Parse((string)readers["FechaPaga"]), null, (float)(double)readers["MontoTotal"]);
                 pagos.Add(nuevoPago);
             }
 
-            readers = socioActividadDatos.listar();
+            readers.Close();
+        }
+
+        private void cargarSociosActividad()
+        {
+            SqliteDataReader readers = socioActividadDatos.listar();
 
             while (readers.Read())
             {
@@ -268,7 +297,12 @@ namespace CapaDeNegocios
                 socios.Add(nuevoSocAct);
             }
 
-            readers = socioClubDatos.listar();
+            readers.Close();
+        }
+
+        private void cargarSociosClub()
+        {
+            SqliteDataReader readers = socioClubDatos.listar();
 
             while (readers.Read())
             {
@@ -318,7 +352,23 @@ namespace CapaDeNegocios
                     clase.agregarSocio(socio);
                 }
             }
-            
+
+            // Vincular pago con Socio 
+            reader = socioPagoDatos.listarRelaciones();
+            while (reader.Read())
+            {
+                int socioId = reader.GetInt32(0);
+                int pagoId = reader.GetInt32(1);
+
+                Socio socio = socios.FirstOrDefault(s => s.Dni == socioId);
+                Pago pago = pagos.FirstOrDefault(p => p.Id == pagoId);
+
+                if (socio != null && pago != null)
+                {
+                    pago.Socio = socio;
+                }
+            }
+
 
             // Vincular Actividad con Clase
             reader = actividadClaseDatos.listarRelaciones();
