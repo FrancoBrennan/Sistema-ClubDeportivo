@@ -13,10 +13,12 @@ namespace CapaDeNegocios
     {
         private int legajo;
         private ProfesorClaseDatos profClasDat;
+        private ProfesorDatos profDatos;
 
         public Profesor(int dni, string nombre, DateTime fechaNac, int legajo) : base(dni,nombre,fechaNac){
             this.legajo = legajo;
             profClasDat = new ProfesorClaseDatos();
+            profDatos = new ProfesorDatos();
         }
 
         public int Legajo
@@ -51,6 +53,11 @@ namespace CapaDeNegocios
         public void agregarClaseBD(Clase c)
         {
             profClasDat.agregarRelacion(this.Dni,c.Id);
+        }
+
+        public void modificarBD()
+        {
+            profDatos.modificar(this.Dni, this.Nombre, this.FechaNac, this.legajo);
         }
 
     }

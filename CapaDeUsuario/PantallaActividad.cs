@@ -66,6 +66,8 @@ namespace CapaDeUsuario
                     act.Id = id;
                     act.Nombre = nombre;
                     act.Precio = precio;
+
+                    act.modificarBD();
                 }
 
                 this.Close();

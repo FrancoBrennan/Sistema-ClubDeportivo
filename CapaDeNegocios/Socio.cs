@@ -39,6 +39,8 @@ namespace CapaDeNegocios
 
         public abstract void removerDeTodaLaBD();
 
+        public abstract void modificarBD();
+
         public void borrarPagosDB()
         {
             socioPagoDatos.removerRelacionPorDni(this.Dni);

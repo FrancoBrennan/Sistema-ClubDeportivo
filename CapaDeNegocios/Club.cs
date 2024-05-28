@@ -112,7 +112,7 @@ namespace CapaDeNegocios
         {
             socios.Add(newSoc);
             
-            if(newSoc is SocioClub)
+            if(newSoc.usaCuota())
             {
                 socioClubDatos.agregar(newSoc.Dni, newSoc.Nombre, newSoc.FechaNac, ((SocioClub)newSoc).CuotaSocial, newSoc.Email, newSoc.Direccion);
             }
@@ -142,6 +142,8 @@ namespace CapaDeNegocios
 
         public void removerActividad(Actividad act)
         {
+            //Remueve todas las clases que tengan esa actividad.
+
             foreach (var c in act.Clase)
             {
                 c.removerDeProfesorYSocios();
@@ -306,7 +308,7 @@ namespace CapaDeNegocios
 
             while (readers.Read())
             {
-                SocioClub nuevoSocClub = new SocioClub((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"], (float)readers["CuotaSocial"]);
+                SocioClub nuevoSocClub = new SocioClub((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"], (float)(double)readers["CuotaSocial"]);
                 socios.Add(nuevoSocClub);
             }
 

@@ -103,6 +103,8 @@ namespace CapaDeUsuario
                     {
                         ((SocioClub)soc).CuotaSocial = cuotaSocial;
                     }
+
+                    soc.modificarBD();
                  
                 }
 

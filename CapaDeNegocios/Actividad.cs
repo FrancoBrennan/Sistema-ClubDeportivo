@@ -15,6 +15,7 @@ namespace CapaDeNegocios
         private float precio;
         private List<Clase> clases;
         private ActividadClaseDatos actClaseDatos;
+        private ActividadDatos actDatos;
 
         public Actividad(int id, string nombre, float precio, List<Clase> clases)
         {
@@ -24,6 +25,7 @@ namespace CapaDeNegocios
             this.clases = clases;
             this.clases = new List<Clase>();
             actClaseDatos = new ActividadClaseDatos();
+            actDatos = new ActividadDatos();
         }
 
         public Actividad()
@@ -39,6 +41,11 @@ namespace CapaDeNegocios
         public void quitarClaseBD(Clase c)
         {
             actClaseDatos.removerRelacion(c.Id,this.id);
+        }
+
+        public void modificarBD()
+        {
+            actDatos.modificar(this.id,this.nombre,this.precio);
         }
 
         public float Precio

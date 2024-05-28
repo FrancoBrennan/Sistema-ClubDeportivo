@@ -55,6 +55,7 @@ namespace CapaDeDatos
                 comando.Connection = establecerConexion();
 
                 this.conexion.Open();
+
                 return comando.ExecuteReader();
 
             }

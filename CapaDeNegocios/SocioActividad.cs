@@ -32,6 +32,11 @@ namespace CapaDeNegocios
             return total;
         }
 
+        public override void modificarBD()
+        {
+            actDat.modificar(this.Dni, this.Nombre, this.FechaNac, this.Email, this.Direccion);
+        }
+
         public override void removerDeTodaLaBD()
         {
             //Elimino todas las relaciones en la Tabla SocioClase
@@ -49,5 +54,7 @@ namespace CapaDeNegocios
                 c.quitarSocio(this);
             }
         }
+
+
     }
 }

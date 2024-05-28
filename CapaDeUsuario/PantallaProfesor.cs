@@ -71,6 +71,8 @@ namespace CapaDeUsuario
                     prof.Nombre = nombre;
                     prof.FechaNac = fechaNac;
                     prof.Legajo = legajo;
+
+                    prof.modificarBD();
                 }
                 this.Close();
             }

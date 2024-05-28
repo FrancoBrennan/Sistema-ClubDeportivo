@@ -90,5 +90,10 @@ namespace CapaDeNegocios
 
 
         }
+
+        public override void modificarBD()
+        {
+            clubDatos.modificar(this.Dni, this.Nombre, this.FechaNac, this.cuotaSocial, this.Email, this.Direccion);
+        }
     }
 }
