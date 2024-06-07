@@ -19,7 +19,10 @@ namespace CapaDeDatos
             // Cadena de conexión a la base de datos SQLite
             string connectionString = "Data Source=C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\BD.db";
 
-            Batteries.Init();
+            //Batteries.raw.SetProvider(new SQLitePCL.SQLite3Provider_e_sqlite3());
+
+            //Batteries.Init();
+            Batteries_V2.Init();
 
             this.conexion = new SqliteConnection(connectionString);
             // Crear la conexión

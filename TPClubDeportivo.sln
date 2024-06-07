@@ -9,6 +9,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDeDatos", "CapaDeDatos\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDeUsuario", "CapaDeUsuario\CapaDeUsuario.csproj", "{862A8993-61E3-4E51-8D42-D05055388B7B}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite", "WebSite\", "{F447D5FF-EA86-44B6-85BD-36A485DBFAD4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{43352cc5-a43d-4592-9dd9-491ccfbaf95f}|CapaDeNegocios.dll;{CD218E90-7519-4174-8E63-67575124BF9C}|TPClubDeportivo.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58173"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58173\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58173"
+		Release.AspNetCompiler.PhysicalPath = "WebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58173\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58173"
+		SlnRelativePath = "WebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +50,10 @@ Global
 		{862A8993-61E3-4E51-8D42-D05055388B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{862A8993-61E3-4E51-8D42-D05055388B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{862A8993-61E3-4E51-8D42-D05055388B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F447D5FF-EA86-44B6-85BD-36A485DBFAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447D5FF-EA86-44B6-85BD-36A485DBFAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F447D5FF-EA86-44B6-85BD-36A485DBFAD4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447D5FF-EA86-44B6-85BD-36A485DBFAD4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
