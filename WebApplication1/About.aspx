@@ -2,8 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>Your application description page.</h3>
-        <p>Use this area to provide additional information.</p>
+        <h2 id="title"></h2>
+        <h3>Club deportivo</h3>
+        <p>En esta aplicación se muestran datos de Socios y Actividades realizadas en el club.</p>
     </main>
 </asp:Content>

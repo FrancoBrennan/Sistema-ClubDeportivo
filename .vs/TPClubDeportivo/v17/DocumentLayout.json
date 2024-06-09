@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
@@ -30,8 +50,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\About.aspx.cs",
+              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\About.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:11:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\About.aspx",
+              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx",
+              "RelativeToolTip": "WebApplication1\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T19:11:18.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Site.Master",
+              "RelativeDocumentMoniker": "WebApplication1\\Site.Master",
+              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Site.Master",
+              "RelativeToolTip": "WebApplication1\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T19:09:50.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Mostrar.aspx",
+              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Mostrar.aspx",
+              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx",
+              "RelativeToolTip": "WebApplication1\\Mostrar.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T19:07:32.678Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -54,7 +126,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Actividad.cs",
+              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Actividad.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Actividad.cs",
+              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Actividad.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Actividad.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAUwFkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:22.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Default.aspx.designer.cs",
               "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.designer.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.designer.cs",
@@ -67,20 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Default.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.cs",
               "RelativeToolTip": "WebApplication1\\Default.aspx.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAYwGIAAAAFAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAYwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T18:31:39.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Default.aspx",
@@ -93,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Conexion.cs",
               "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\Conexion.cs",
               "RelativeDocumentMoniker": "CapaDeDatos\\Conexion.cs",
@@ -106,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Club.cs",
               "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Club.cs",
               "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",

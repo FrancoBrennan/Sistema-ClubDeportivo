@@ -29,8 +29,6 @@ namespace WebApplication1
             }
         }
 
-
-
         //Actividades
         protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -39,7 +37,7 @@ namespace WebApplication1
             ListBoxSocios.ClearSelection();
         }
 
-        //Comisiones
+        //Clases
         protected void ListBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
             ListBoxActividades.ClearSelection();
