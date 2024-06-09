@@ -2,6 +2,7 @@
 using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
+using System.Data.OleDb;
 using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
@@ -239,11 +240,11 @@ namespace CapaDeNegocios
 
         private void cargarProfesores()
         {
-            SqliteDataReader readers = profDatos.listarProfesores();
+            OleDbDataReader readers = profDatos.listarProfesores();
 
             while (readers.Read())
             {
-                Profesor nuevoProf = new Profesor((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (int)(long)readers["Legajo"]);
+                Profesor nuevoProf = new Profesor((int)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (int)readers["Legajo"]);
                 profesores.Add(nuevoProf);
             }
 
@@ -252,11 +253,11 @@ namespace CapaDeNegocios
 
         private void cargarActividades()
         {
-            SqliteDataReader readers = actividadDatos.listar();
+            OleDbDataReader readers = actividadDatos.listar();
 
             while (readers.Read())
             {
-                Actividad nuevaAct = new Actividad((int)(long)readers["ID"], (string)readers["Nombre"], (float)(double)readers["Precio"], null);
+                Actividad nuevaAct = new Actividad((int)readers["ID"], (string)readers["Nombre"], float.Parse((string)readers["Precio"]), null);
                 actividades.Add(nuevaAct);
             }
 
@@ -265,11 +266,11 @@ namespace CapaDeNegocios
 
         private void cargarClases()
         {
-            SqliteDataReader readers = claseDatos.listar();
+            OleDbDataReader readers = claseDatos.listar();
 
             while (readers.Read())
             {
-                Clase nuevaClase = new Clase((int)(long)readers["ID"], null, (string)readers["Dia"], (int)(long)readers["Hora"], null, (int)(long)readers["CupoMaximo"]);
+                Clase nuevaClase = new Clase((int)readers["ID"], null, (string)readers["Dia"], (int)readers["Hora"], null, (int)readers["CupoMaximo"]);
                 clases.Add(nuevaClase);
             }
 
@@ -278,11 +279,11 @@ namespace CapaDeNegocios
 
         private void cargarPagos()
         {
-            SqliteDataReader readers = pagoDatos.listar();
+            OleDbDataReader readers = pagoDatos.listar();
 
             while (readers.Read())
             {
-                Pago nuevoPago = new Pago((int)(long)readers["ID"], DateTime.Parse((string)readers["FechaPaga"]), null, (float)(double)readers["MontoTotal"]);
+                Pago nuevoPago = new Pago((int)readers["ID"], DateTime.Parse((string)readers["FechaPaga"]), null, float.Parse((string)readers["MontoTotal"]));
                 pagos.Add(nuevoPago);
             }
 
@@ -291,11 +292,11 @@ namespace CapaDeNegocios
 
         private void cargarSociosActividad()
         {
-            SqliteDataReader readers = socioActividadDatos.listar();
+            OleDbDataReader readers = socioActividadDatos.listar();
 
             while (readers.Read())
             {
-                SocioActividad nuevoSocAct = new SocioActividad((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"]);
+                SocioActividad nuevoSocAct = new SocioActividad((int)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"]);
                 socios.Add(nuevoSocAct);
             }
 
@@ -304,11 +305,11 @@ namespace CapaDeNegocios
 
         private void cargarSociosClub()
         {
-            SqliteDataReader readers = socioClubDatos.listar();
+            OleDbDataReader readers = socioClubDatos.listar();
 
             while (readers.Read())
             {
-                SocioClub nuevoSocClub = new SocioClub((int)(long)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"], (float)(double)readers["CuotaSocial"]);
+                SocioClub nuevoSocClub = new SocioClub((int)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (string)readers["Email"], (string)readers["Direccion"], float.Parse((string)readers["CuotaSocial"]));
                 socios.Add(nuevoSocClub);
             }
 
@@ -320,7 +321,7 @@ namespace CapaDeNegocios
         {
 
             // Vincular Profesor con Clase
-            SqliteDataReader reader = profesorClaseDatos.listarRelaciones();
+            OleDbDataReader reader = profesorClaseDatos.listarRelaciones();
 
             while (reader.Read())
             {

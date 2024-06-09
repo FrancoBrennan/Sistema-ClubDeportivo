@@ -1,10 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
+using System.Data.OleDb;
 namespace CapaDeDatos
 {
     public class ActividadDatos
@@ -21,7 +16,7 @@ namespace CapaDeDatos
             string query = "INSERT INTO Actividad (ID, Nombre, Precio) VALUES (@ID, @Nombre, @Precio)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", ID);
@@ -39,7 +34,7 @@ namespace CapaDeDatos
             string query = "UPDATE Actividad SET Nombre = @Nombre, Precio = @Precio WHERE ID = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", ID);
@@ -56,7 +51,7 @@ namespace CapaDeDatos
             string query = "DELETE from Actividad WHERE ID = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -66,17 +61,17 @@ namespace CapaDeDatos
 
         }
 
-        public SqliteDataReader listar()
+        public OleDbDataReader listar()
         {
-            return this.con.ejecutarSelect(new SqliteCommand("SELECT * FROM Actividad"));
+            return this.con.ejecutarSelect(new OleDbCommand("SELECT * FROM Actividad"));
         }
 
-        public SqliteDataReader enlazar(int id)
+        public OleDbDataReader enlazar(int id)
         {
             string query = "SELECT IDActividad FROM ActividadClase WHERE IDClase = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", id);

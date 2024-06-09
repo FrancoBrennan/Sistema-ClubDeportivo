@@ -1,11 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using System.Data.OleDb;
 
 namespace CapaDeDatos
 {
@@ -18,10 +12,10 @@ namespace CapaDeDatos
             conexion = new Conexion();
         }
 
-        public SqliteDataReader listarRelaciones()
+        public OleDbDataReader listarRelaciones()
         {
             string query = "SELECT SocioDNI,IDClase FROM SocioClase";
-            SqliteCommand command = new SqliteCommand(query);
+            OleDbCommand command = new OleDbCommand(query);
             return conexion.ejecutarSelect(command);
         }
 
@@ -30,7 +24,7 @@ namespace CapaDeDatos
             string query = "INSERT INTO SocioClase (SocioDNI, IDClase) VALUES (@socDni, @idClase)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@socDni", socDni);
@@ -46,7 +40,7 @@ namespace CapaDeDatos
             string query = "DELETE FROM SocioClase WHERE IDClase = (@IdClase) AND SocioDNI = (@SocDni)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@IdClase", idClase);
@@ -63,7 +57,7 @@ namespace CapaDeDatos
             string query = "DELETE FROM SocioClase WHERE SocioDNI = (@SocDni)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@SocDni", dni);
@@ -78,7 +72,7 @@ namespace CapaDeDatos
             string query = "DELETE FROM SocioClase WHERE IDClase = (@IdClase)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@IdClase", idClase);

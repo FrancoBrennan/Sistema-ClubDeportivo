@@ -1,9 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using System.Data.OleDb;
 
 namespace CapaDeDatos
 {
@@ -21,7 +17,7 @@ namespace CapaDeDatos
             string query = "INSERT INTO Clase (ID, Dia, Hora, CupoMaximo) VALUES (@ID, @Dia, @Hora, @CupoMaximo)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", ID);
@@ -40,7 +36,7 @@ namespace CapaDeDatos
             string query = "UPDATE Clase SET Dia = @Dia, Hora = @Hora, CupoMax = @CupoMax WHERE ID = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", ID);
@@ -58,7 +54,7 @@ namespace CapaDeDatos
             string query = "DELETE from Clase WHERE ID = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -68,9 +64,9 @@ namespace CapaDeDatos
 
         }
 
-        public SqliteDataReader listar()
+        public OleDbDataReader listar()
         {
-            return this.con.ejecutarSelect(new SqliteCommand("SELECT * FROM Clase"));
+            return this.con.ejecutarSelect(new OleDbCommand("SELECT * FROM Clase"));
         }
 
     }

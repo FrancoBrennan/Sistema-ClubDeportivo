@@ -1,10 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using System;
+using System.Data.OleDb;
 namespace CapaDeDatos
 {
     public class SocioClubDatos
@@ -21,7 +16,7 @@ namespace CapaDeDatos
             string query = "INSERT INTO SocioClub (DNI, Nombre, CuotaSocial, Email, Direccion, FechaNacimiento) VALUES (@dni, @nombre, @CuotaSocial, @Email, @Direccion, @fechaNac)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@dni", dni);
@@ -42,7 +37,7 @@ namespace CapaDeDatos
             string query = "UPDATE SocioClub SET Nombre = @nombre, FechaNacimiento = @fechaNac, CuotaSocial = @CuotaSocial, Email = @Email, Direccion = @Direccion  WHERE DNI = @dni";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@dni", dni);
@@ -62,7 +57,7 @@ namespace CapaDeDatos
             string query = "DELETE from SocioClub WHERE DNI = @dni";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@dni", dni);
@@ -72,9 +67,9 @@ namespace CapaDeDatos
 
         }
 
-        public SqliteDataReader listar()
+        public OleDbDataReader listar()
         {
-            return this.con.ejecutarSelect(new SqliteCommand("SELECT * FROM SocioClub"));
+            return this.con.ejecutarSelect(new OleDbCommand("SELECT * FROM SocioClub"));
         }
 
     }

@@ -1,9 +1,5 @@
-﻿using Microsoft.Data.Sqlite;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using System.Data.OleDb;
 
 namespace CapaDeDatos
 {
@@ -21,7 +17,7 @@ namespace CapaDeDatos
             string query = "INSERT INTO Pago (ID, FechaPaga, MontoTotal) VALUES (@ID, @FechaPaga, @MontoTotal)";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -39,7 +35,7 @@ namespace CapaDeDatos
             string query = "UPDATE Pago SET FechaPaga = @fechaPaga, MontoTotal = @montoTotal WHERE ID = @id";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@id", id);
@@ -56,7 +52,7 @@ namespace CapaDeDatos
             string query = "DELETE from Pago WHERE ID = @ID";
 
             // Crear y configurar el comando SQL
-            using (SqliteCommand cmd = new SqliteCommand(query))
+            using (OleDbCommand cmd = new OleDbCommand(query))
             {
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@ID", id);
@@ -66,9 +62,9 @@ namespace CapaDeDatos
 
         }
 
-        public SqliteDataReader listar()
+        public OleDbDataReader listar()
         {
-            return this.con.ejecutarSelect(new SqliteCommand("SELECT * FROM Pago"));
+            return this.con.ejecutarSelect(new OleDbCommand("SELECT * FROM Pago"));
         }
 
     }
