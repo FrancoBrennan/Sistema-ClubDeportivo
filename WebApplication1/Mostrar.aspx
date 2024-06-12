@@ -4,7 +4,6 @@
 
     <div class="jumbotron">
         <h2>
-            <asp:Image ID="Image1" runat="server" Height="39px" Width="65px" />
             <asp:Label ID="LabelDescripcion" runat="server" Text="Label"></asp:Label>
         </h2>
         <p>

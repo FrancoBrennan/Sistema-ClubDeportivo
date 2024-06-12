@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Web;
 using System.Web.UI;
+using CapaDeNegocios;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
@@ -11,8 +12,71 @@ namespace WebApplication1.Account
 {
     public partial class Register : Page
     {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                // Inicializar visibilidad del campo CuotaSocial
+                divCuotaSocial.Visible = EsSocio.Checked;
+            }
+        }
+
+        protected void EsSocio_CheckedChanged(object sender, EventArgs e)
+        {
+            // Mostrar u ocultar el campo CuotaSocial basado en el estado del checkbox
+            divCuotaSocial.Visible = EsSocio.Checked;
+        }
+
+
         protected void CreateUser_Click(object sender, EventArgs e)
         {
+            Club club = (Club)Session["Club"];
+
+            try
+            {
+                int dni = int.Parse(Password.Text);
+                int dniConfirm = int.Parse(ConfirmPassword.Text);
+                DateTime fecha = DateTime.Parse(FechaNacimiento.Text);
+                
+                
+
+                if(dni != dniConfirm)
+                {
+                    throw new Exception();
+                }
+
+                if(EsSocio.Checked)
+                {
+                    float monto = float.Parse(CuotaSocial.Text);
+
+                    SocioClub socClub = new SocioClub(dni,Nombre.Text, fecha, Email.Text, Direccion.Text, monto);
+
+                    club.agregarSocio(socClub);
+                }
+                else
+                {
+                    SocioActividad socAct = new SocioActividad(dni, Nombre.Text, fecha, Email.Text, Direccion.Text);
+
+                    club.agregarSocio(socAct);
+                }
+
+                ErrorMessage.Text = "";
+
+
+                string url = "https://localhost:44366";
+                string script = string.Format("window.open('{0}');", url);
+
+                Page.ClientScript.RegisterStartupScript(this.GetType(),
+                "newPage" + UniqueID, script, true);
+            }
+            catch {
+                ErrorMessage.Text = "Parámetros invalidos";
+            }
+
+            
+
+
+            /*
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
             var signInManager = Context.GetOwinContext().Get<ApplicationSignInManager>();
             var user = new ApplicationUser() { UserName = Email.Text, Email = Email.Text };
@@ -31,6 +95,8 @@ namespace WebApplication1.Account
             {
                 ErrorMessage.Text = result.Errors.FirstOrDefault();
             }
+
+            */
         }
     }
 }

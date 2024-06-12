@@ -91,6 +91,14 @@ namespace CapaDeNegocios
             
         }
 
+        public void agregarSocioClase(Socio newSocio)
+        {
+            if (!verificarSocio(newSocio) && verificarCupo())
+            {
+                socios.Add(newSocio);
+            }
+        }
+
         public bool verificarCupo()
         {
             return socios.Count() < this.cupoMax;

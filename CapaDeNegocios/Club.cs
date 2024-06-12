@@ -242,6 +242,7 @@ namespace CapaDeNegocios
         {
             OleDbDataReader readers = profDatos.listarProfesores();
 
+
             while (readers.Read())
             {
                 Profesor nuevoProf = new Profesor((int)readers["DNI"], (string)readers["Nombre"], DateTime.Parse((string)readers["FechaNacimiento"]), (int)readers["Legajo"]);
@@ -338,6 +339,7 @@ namespace CapaDeNegocios
                 }
             }
             
+            reader.Close();
 
             // Vincular Socio con Clase
             reader = socioClaseDatos.listarRelaciones();
@@ -352,9 +354,11 @@ namespace CapaDeNegocios
                 if (socio != null && clase != null)
                 {
                     socio.agregarClase(clase);
-                    clase.agregarSocio(socio);
+                    clase.agregarSocioClase(socio);
                 }
             }
+
+            reader.Close();
 
             // Vincular pago con Socio 
             reader = socioPagoDatos.listarRelaciones();
@@ -371,6 +375,8 @@ namespace CapaDeNegocios
                     pago.Socio = socio;
                 }
             }
+
+            reader.Close();
 
 
             // Vincular Actividad con Clase
@@ -389,6 +395,7 @@ namespace CapaDeNegocios
                     clase.Act = actividad;
                 }
             }
+
             reader.Close();
         }
 

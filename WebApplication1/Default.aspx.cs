@@ -26,6 +26,8 @@ namespace WebApplication1
                 ListBoxProfesores.DataBind();
                 ListBoxSocios.DataSource = club.Socios;
                 ListBoxSocios.DataBind();
+                ListBoxPagos.DataSource = club.Pagos;
+                ListBoxPagos.DataBind();
             }
         }
 
@@ -35,6 +37,7 @@ namespace WebApplication1
             ListBoxClases.ClearSelection();
             ListBoxProfesores.ClearSelection();
             ListBoxSocios.ClearSelection();
+            ListBoxPagos.ClearSelection();
         }
 
         //Clases
@@ -43,6 +46,7 @@ namespace WebApplication1
             ListBoxActividades.ClearSelection();
             ListBoxProfesores.ClearSelection();
             ListBoxSocios.ClearSelection();
+            ListBoxPagos.ClearSelection();
         }
 
         //Profesores
@@ -51,6 +55,7 @@ namespace WebApplication1
             ListBoxActividades.ClearSelection();
             ListBoxClases.ClearSelection();
             ListBoxSocios.ClearSelection();
+            ListBoxPagos.ClearSelection();
         }
 
         //Socios
@@ -58,6 +63,16 @@ namespace WebApplication1
         {
             ListBoxActividades.ClearSelection();
             ListBoxClases.ClearSelection();
+            ListBoxProfesores.ClearSelection();
+            ListBoxPagos.ClearSelection();
+        }
+
+        //Pagos
+        protected void ListBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ListBoxActividades.ClearSelection();
+            ListBoxClases.ClearSelection();
+            ListBoxSocios.ClearSelection();
             ListBoxProfesores.ClearSelection();
         }
 
@@ -87,8 +102,14 @@ namespace WebApplication1
                 Session["Socio"] = soc;
                 Session["Type"] = "socio";
             }
+            else if (ListBoxPagos.SelectedIndex != -1)
+            {
+                Pago pago = ((Club)Session["Club"]).Pagos[ListBoxPagos.SelectedIndex];
+                Session["Pago"] = pago;
+                Session["Type"] = "pago";
+            }
 
-            string url = "https://localhost:44322/Mostrar";
+            string url = "https://localhost:44366/Mostrar";
             string script = string.Format("window.open('{0}');", url);
 
             Page.ClientScript.RegisterStartupScript(this.GetType(),

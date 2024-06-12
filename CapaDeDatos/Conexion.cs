@@ -97,7 +97,7 @@ namespace CapaDeDatos
             // https://download.cnet.com/microsoft-access-database-engine-2010-redistributable-64-bit/3001-10254_4-75452796.html?dt=internalDownload
             // string connectionString = "Data Source=C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\BD.db";
             // Cadena de conexión a la base de datos Access
-            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\BD.accdb";
+            string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\BD.accdb";
 
             this.conexion = new OleDbConnection(connectionString);
             return conexion;

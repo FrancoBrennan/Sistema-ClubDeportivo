@@ -44,8 +44,18 @@
                     SelectionMode="Single"
                     runat="server" OnSelectedIndexChanged="ListBox4_SelectedIndexChanged"></asp:ListBox>
             </div>
+            <div class="col-xs-4">
+                <p style="margin-bottom: 0px; padding-top: 20px">Pagos</p>
+                <asp:ListBox AutoPostBack="true"
+                ID="ListBoxPagos"
+                Rows="20"
+                Width="450px"
+                SelectionMode="Single"
+                runat="server" OnSelectedIndexChanged="ListBox5_SelectedIndexChanged"></asp:ListBox>
+            </div>
             <div class="col-xs-4 justify-content-center">
                 <div>
+
                 </div>
             </div>
             <div class="col-xs-4 align-items-end">

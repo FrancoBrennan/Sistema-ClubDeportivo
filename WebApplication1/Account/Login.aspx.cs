@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Web;
 using System.Web.UI;
+using CapaDeNegocios;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
@@ -27,6 +28,8 @@ namespace WebApplication1.Account
         {
             if (IsValid)
             {
+
+                /*
                 // Validar la contraseña del usuario
                 var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
                 var signinManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
@@ -55,6 +58,39 @@ namespace WebApplication1.Account
                         ErrorMessage.Visible = true;
                         break;
                 }
+
+                */
+
+                Club club = (Club)Session["Club"];
+                Socio soc = club.Socios.Find(socio => socio.Email.ToString() == Email.Text);
+
+                try
+                {
+                    if (soc == null || soc.Dni.ToString() != Password.Text)
+                    {
+                        throw new Exception();
+                    }
+
+
+                    FailureText.Text = "";
+                    ErrorMessage.Visible = false;
+
+                    Session["Usuario"] = soc;
+
+                    string url = "https://localhost:44366";
+                    string script = string.Format("window.open('{0}');", url);
+
+                    Page.ClientScript.RegisterStartupScript(this.GetType(),
+                    "newPage" + UniqueID, script, true);
+
+                }
+                catch
+                {
+                    FailureText.Text = "Datos incorrectos";
+                    ErrorMessage.Visible = true;
+                }
+
+
             }
         }
     }

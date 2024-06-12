@@ -13,8 +13,8 @@ namespace CapaDeNegocios
     public class SocioClub : Socio
     {
         private float cuotaSocial;
-        private static int ActMax;
-        private static int PorcDesc;
+        private static int ActMax = 5;
+        private static int PorcDesc = 50;
         private SocioClubDatos clubDatos;
 
         public SocioClub(int dni, string nombre, DateTime fechaNac, string email, string direccion, float cuotaSocial) : base(dni,nombre,fechaNac,email,direccion)
