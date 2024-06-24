@@ -11,6 +11,7 @@ namespace WebApplication1
     public partial class _Default : Page
     {
         private Club club;
+        private Socio usuario;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -18,14 +19,81 @@ namespace WebApplication1
                 this.club = new Club();
                 Session["Club"] = club;
 
+                this.usuario = (Socio) Session["Usuario"];
+
+                cargarActividades();
+                cargarClases();
+                cargarProfesores();
+                cargarSocios();
+                cargarPagos();
+            }
+        }
+
+        protected void cargarActividades()
+        {
+            if (usuario != null)
+            {
+                ListBoxActividades.DataSource =usuario.Clases.Select(c => c.Act).ToList();
+
+            } else
+            {
                 ListBoxActividades.DataSource = club.Actividades;
-                ListBoxActividades.DataBind();
+            }
+
+            ListBoxActividades.DataBind();
+        }
+
+        protected void cargarClases()
+        {
+            if (usuario != null)
+            {
+                ListBoxClases.DataSource = club.Clases.Where(c => !usuario.Clases.Contains(c)).ToList();
+
+                ListBoxClasesIncriptas.DataSource = usuario.Clases;
+                ListBoxClasesIncriptas.DataBind();
+            } else
+            {
                 ListBoxClases.DataSource = club.Clases;
-                ListBoxClases.DataBind();
+                ListBoxClasesIncriptas.Visible = false;
+            }
+            
+            ListBoxClases.DataBind();
+        }
+
+        protected void cargarProfesores()
+        {
+            if (usuario != null)
+            {
+                ListBoxProfesores.Visible = false;
+
+            } else
+            {
                 ListBoxProfesores.DataSource = club.Profesores;
                 ListBoxProfesores.DataBind();
+            }
+        }
+
+        protected void cargarSocios()
+        {
+            if (usuario != null)
+            {
+                ListBoxSocios.Visible = false;
+
+            } else
+            {
                 ListBoxSocios.DataSource = club.Socios;
                 ListBoxSocios.DataBind();
+            }
+        }
+
+        protected void cargarPagos()
+        {
+            if (usuario != null)
+            {
+                ListBoxPagos.Visible = false;
+
+            } else
+            {
                 ListBoxPagos.DataSource = club.Pagos;
                 ListBoxPagos.DataBind();
             }
@@ -38,6 +106,7 @@ namespace WebApplication1
             ListBoxProfesores.ClearSelection();
             ListBoxSocios.ClearSelection();
             ListBoxPagos.ClearSelection();
+            ListBoxClasesIncriptas.ClearSelection();
         }
 
         //Clases
@@ -47,6 +116,17 @@ namespace WebApplication1
             ListBoxProfesores.ClearSelection();
             ListBoxSocios.ClearSelection();
             ListBoxPagos.ClearSelection();
+            ListBoxClasesIncriptas.ClearSelection();
+        }
+
+        //Clases inscriptas
+        protected void ListBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ListBoxActividades.ClearSelection();
+            ListBoxProfesores.ClearSelection();
+            ListBoxSocios.ClearSelection();
+            ListBoxPagos.ClearSelection();
+            ListBoxClases.ClearSelection();
         }
 
         //Profesores
@@ -56,6 +136,7 @@ namespace WebApplication1
             ListBoxClases.ClearSelection();
             ListBoxSocios.ClearSelection();
             ListBoxPagos.ClearSelection();
+            ListBoxClasesIncriptas.ClearSelection();
         }
 
         //Socios
@@ -65,6 +146,7 @@ namespace WebApplication1
             ListBoxClases.ClearSelection();
             ListBoxProfesores.ClearSelection();
             ListBoxPagos.ClearSelection();
+            ListBoxClasesIncriptas.ClearSelection();
         }
 
         //Pagos
@@ -74,6 +156,19 @@ namespace WebApplication1
             ListBoxClases.ClearSelection();
             ListBoxSocios.ClearSelection();
             ListBoxProfesores.ClearSelection();
+            ListBoxClasesIncriptas.ClearSelection();
+        }
+
+        // Inscribirse a clase
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            if (ListBoxClases.SelectedIndex != -1)
+            {
+                Clase clase = club.Clases.Where(c => !usuario.Clases.Contains(c)).ToList()[ListBoxPagos.SelectedIndex];
+                usuario.agregarClase(clase);
+
+                cargarClases();
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)

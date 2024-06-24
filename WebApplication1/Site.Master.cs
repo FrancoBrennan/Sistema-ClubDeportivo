@@ -69,7 +69,24 @@ namespace WebApplication1
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["Usuario"] != null)
+            {
+                LoginHeader.Visible = false;
+            } else
+            {
+                LogoutHeader.Visible = false;
+            }
+        }
 
+        protected void logout_click(object sender, EventArgs e)
+        {
+            Session["Usuario"] = null;
+
+            string url = "https://localhost:44366";
+            string script = string.Format("window.open('{0}');", url);
+
+            Page.ClientScript.RegisterStartupScript(this.GetType(),
+            "newPage" + UniqueID, script, true);
         }
 
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)

@@ -24,6 +24,16 @@
                     runat="server" OnSelectedIndexChanged="ListBox2_SelectedIndexChanged"></asp:ListBox>
             </div>
 
+            <div class="col-xs-4">
+                <p style="margin-bottom: 0px">Clases Inscriptas</p>
+                <asp:ListBox AutoPostBack="true"
+                    ID="ListBoxClasesIncriptas"
+                    Rows="20"
+                    Width="450px"
+                    SelectionMode="Single"
+                    runat="server" OnSelectedIndexChanged="ListBox6_SelectedIndexChanged"></asp:ListBox>
+            </div>
+
 
 
             <div class="col-xs-4">
@@ -60,6 +70,10 @@
             </div>
             <div class="col-xs-4 align-items-end">
                 <asp:Button ID="Button1" class="btn btn-primary btn-lg" runat="server" OnClick="Button1_Click" Text="Mostrar" Style="margin-top: 350px; margin-left: 200px;" />
+            </div>
+
+            <div class="col-xs-4 align-items-end">
+                <asp:Button ID="Button2" class="btn btn-primary btn-lg" runat="server" OnClick="Button2_Click" Text="Inscribirse" Style="margin-top: 350px; margin-left: 200px;" />
             </div>
         </div>
     </div>
