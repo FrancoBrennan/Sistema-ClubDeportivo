@@ -1,82 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\",
+  "WorkspaceRootPath": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|c:\\users\\lvt\\downloads\\electiva de programacion\\tp-electivaprogram\\capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\account\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\account\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\mostrar.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\mostrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\viewswitcher.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewswitcher.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\viewswitcher.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\capadedatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\webapplication1\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioclubdatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\account\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|c:\\proyecto club deportivo\\tpclubdeportivo\\capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\socioactividaddatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\account\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\account\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socioclub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\clase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\socio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\account\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\mostrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\mostrar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\profesorclasedatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD218E90-7519-4174-8E63-67575124BF9C}|CapaDeDatos\\CapaDeDatos.csproj|solutionrelative:capadedatos\\datos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43352CC5-A43D-4592-9DD9-491CCFBAF95F}|CapaDeNegocios\\CapaDeNegocios.csproj|solutionrelative:capadenegocios\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|C:\\Proyecto Club Deportivo\\TPClubDeportivo\\webapplication1\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BAF45A-76BA-401C-B685-164134DF56BF}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\default.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,8 +109,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 972,
-          "SelectedChildIndex": 20,
+          "DockedWidth": 170,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,146 +134,153 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SocioClubDatos.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\SocioClubDatos.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClubDatos.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\SocioClubDatos.cs",
-              "RelativeToolTip": "CapaDeDatos\\SocioClubDatos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T00:51:12.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Register.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Account\\Register.aspx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Register.aspx",
-              "RelativeToolTip": "WebApplication1\\Account\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-12T00:18:00.241Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Account\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Login.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\Account\\Login.aspx.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAYwE0AAAAmAAAA",
+              "Title": "SocioClubDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\SocioClubDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioClubDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\SocioClubDatos.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBcAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T23:56:55.5Z",
+              "WhenOpened": "2024-06-24T21:07:37.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Login.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Account\\Login.aspx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Account\\Login.aspx",
-              "RelativeToolTip": "WebApplication1\\Account\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-11T23:56:52.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Clase.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Clase.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Clase.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Clase.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAApwFMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:52:03.064Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Mostrar.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx.designer.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Mostrar.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx.designer.cs",
-              "RelativeToolTip": "WebApplication1\\Mostrar.aspx.designer.cs",
+              "DocumentIndex": 8,
+              "Title": "SocioActividad.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioActividad.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioActividad.cs",
+              "RelativeToolTip": "CapaDeNegocios\\SocioActividad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:32:37.241Z"
+              "WhenOpened": "2024-06-12T00:18:59.081Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ViewSwitcher.ascx.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\ViewSwitcher.ascx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\ViewSwitcher.ascx.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\ViewSwitcher.ascx.cs",
-              "RelativeToolTip": "WebApplication1\\ViewSwitcher.ascx.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwCEAAABCAAAA",
+              "Title": "Socio.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Socio.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Socio.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Socio.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwCQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:30:24.482Z"
+              "WhenOpened": "2024-06-12T00:18:51.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ViewSwitcher.ascx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\ViewSwitcher.ascx",
-              "RelativeDocumentMoniker": "WebApplication1\\ViewSwitcher.ascx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\ViewSwitcher.ascx",
-              "RelativeToolTip": "WebApplication1\\ViewSwitcher.ascx",
+              "DocumentIndex": 11,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Register.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Account\\Register.aspx",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Register.aspx",
+              "RelativeToolTip": "WebApplication1\\Account\\Register.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
-              "WhenOpened": "2024-06-11T22:30:19.117Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-12T00:17:22.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Mostrar.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Mostrar.aspx.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\Mostrar.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T22:30:07.342Z"
+              "DocumentIndex": 10,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Login.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Account\\Login.aspx",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Login.aspx",
+              "RelativeToolTip": "WebApplication1\\Account\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T23:57:04.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "About.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\About.aspx.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\About.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Pago.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Pago.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Pago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:11:49.419Z",
+              "WhenOpened": "2024-06-11T23:51:53.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx",
+              "RelativeToolTip": "WebApplication1\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T22:54:36.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Club.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Club.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAArwHUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:22.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\About.aspx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\About.aspx",
-              "RelativeToolTip": "WebApplication1\\About.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-09T19:11:18.939Z"
+              "Title": "Mostrar.aspx.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Mostrar.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Mostrar.aspx.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Mostrar.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Mostrar.aspx.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAApwHEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T22:33:41.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Default.aspx.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAuwF4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:31:39.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Clase.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Clase.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Clase.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Clase.cs",
+              "ViewState": "AQIAAJgAAAAAAAAAAAArwKcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:27:06.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Site.Master",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Site.Master",
               "RelativeDocumentMoniker": "WebApplication1\\Site.Master",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Site.Master",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Site.Master",
               "RelativeToolTip": "WebApplication1\\Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -258,11 +289,148 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "SocioActividadDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioActividadDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\SocioActividadDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\SocioActividadDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\SocioActividadDatos.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBAAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T21:07:09.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Account\\Register.aspx.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Register.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Account\\Register.aspx.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwDUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T00:24:02.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Site.Master.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Site.Master.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Site.Master.cs",
+              "RelativeToolTip": "WebApplication1\\Site.Master.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAASwFEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T20:29:09.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SocioClub.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\SocioClub.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\SocioClub.cs",
+              "RelativeToolTip": "CapaDeNegocios\\SocioClub.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAhwBMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T00:19:01.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Account\\Login.aspx.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Account\\Login.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\Account\\Login.aspx.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T23:57:19.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "About.aspx.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\About.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\About.aspx.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\About.aspx.cs",
+              "RelativeToolTip": "WebApplication1\\About.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T19:11:49.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\About.aspx",
+              "RelativeDocumentMoniker": "WebApplication1\\About.aspx",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\About.aspx",
+              "RelativeToolTip": "WebApplication1\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-09T19:11:18.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Actividad.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Actividad.cs",
+              "RelativeDocumentMoniker": "CapaDeNegocios\\Actividad.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeNegocios\\Actividad.cs",
+              "RelativeToolTip": "CapaDeNegocios\\Actividad.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAUwFkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:22.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Default.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.designer.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Default.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication1\\Default.aspx.designer.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:51:02.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Conexion.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\Conexion.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Conexion.cs",
+              "RelativeToolTip": "CapaDeDatos\\Conexion.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAhwHkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:24:22.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Datos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\Datos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\Datos.cs",
+              "RelativeToolTip": "CapaDeDatos\\Datos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T16:31:02.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Mostrar.aspx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Mostrar.aspx",
               "RelativeDocumentMoniker": "WebApplication1\\Mostrar.aspx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Mostrar.aspx",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\WebApplication1\\Mostrar.aspx",
               "RelativeToolTip": "WebApplication1\\Mostrar.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -270,108 +438,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Actividad.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Actividad.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Actividad.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Actividad.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Actividad.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAD4vyMAAAAgAAAA",
+              "DocumentIndex": 19,
+              "Title": "ProfesorClaseDatos.cs",
+              "DocumentMoniker": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorClaseDatos.cs",
+              "RelativeDocumentMoniker": "CapaDeDatos\\ProfesorClaseDatos.cs",
+              "ToolTip": "C:\\Proyecto Club Deportivo\\TPClubDeportivo\\CapaDeDatos\\ProfesorClaseDatos.cs",
+              "RelativeToolTip": "CapaDeDatos\\ProfesorClaseDatos.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T18:24:22.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.aspx.designer.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.designer.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.designer.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.designer.cs*",
-              "RelativeToolTip": "WebApplication1\\Default.aspx.designer.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwFkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T18:51:02.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx.cs",
-              "RelativeToolTip": "WebApplication1\\Default.aspx.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAmwKoAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T18:31:39.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx",
-              "RelativeDocumentMoniker": "WebApplication1\\Default.aspx",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\WebApplication1\\Default.aspx",
-              "RelativeToolTip": "WebApplication1\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-09T18:27:19.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\Conexion.cs",
-              "RelativeDocumentMoniker": "CapaDeDatos\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeDatos\\Conexion.cs",
-              "RelativeToolTip": "CapaDeDatos\\Conexion.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAiwIgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T18:24:22.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Club.cs",
-              "DocumentMoniker": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Club.cs",
-              "RelativeDocumentMoniker": "CapaDeNegocios\\Club.cs",
-              "ToolTip": "C:\\Users\\Lvt\\Downloads\\electiva de programacion\\TP-ElectivaProgram\\CapaDeNegocios\\Club.cs",
-              "RelativeToolTip": "CapaDeNegocios\\Club.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAnwBEAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T18:24:22.335Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 681,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "WhenOpened": "2024-06-11T16:31:04.669Z"
             }
           ]
         }

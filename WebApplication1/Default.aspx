@@ -37,7 +37,7 @@
 
 
             <div class="col-xs-4">
-                <p style="margin-bottom: 0px">Profesores</p>
+                <asp:TextBox runat="server" id="LabelProfesores"  style="margin-bottom: 0px">Profesores</asp:TextBox>
                 <asp:ListBox AutoPostBack="true"
                     ID="ListBoxProfesores"
                     Rows="20"
@@ -46,7 +46,7 @@
                     runat="server" OnSelectedIndexChanged="ListBox3_SelectedIndexChanged"></asp:ListBox>
             </div>
             <div class="col-xs-4">
-                <p style="margin-bottom: 0px; padding-top: 20px">Socios</p>
+                <asp:TextBox runat="server" id="LabelSocios" style="margin-bottom: 0px; padding-top: 20px">Socios</asp:TextBox>
                 <asp:ListBox AutoPostBack="true"
                     ID="ListBoxSocios"
                     Rows="20"
@@ -55,7 +55,7 @@
                     runat="server" OnSelectedIndexChanged="ListBox4_SelectedIndexChanged"></asp:ListBox>
             </div>
             <div class="col-xs-4">
-                <p style="margin-bottom: 0px; padding-top: 20px">Pagos</p>
+                <asp:TextBox runat="server" id="LabelPagos" style="margin-bottom: 0px; padding-top: 20px">Pagos</asp:TextBox>
                 <asp:ListBox AutoPostBack="true"
                 ID="ListBoxPagos"
                 Rows="20"

@@ -115,7 +115,7 @@ namespace CapaDeNegocios
             
             if(newSoc.usaCuota())
             {
-                socioClubDatos.agregar(newSoc.Dni, newSoc.Nombre, newSoc.FechaNac, ((SocioClub)newSoc).CuotaSocial, newSoc.Email, newSoc.Direccion);
+                socioClubDatos.agregar(newSoc.Dni, newSoc.Nombre, ((SocioClub)newSoc).CuotaSocial, newSoc.Email, newSoc.Direccion, newSoc.FechaNac);
             }
             else
             {

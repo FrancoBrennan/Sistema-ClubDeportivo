@@ -71,14 +71,14 @@ namespace WebApplication1
         {
             if (Session["Usuario"] != null)
             {
-                LoginHeader.Visible = false;
+                LoginHeader2.Visible = false;
             } else
             {
-                LogoutHeader.Visible = false;
+                LogoutHeader2.Visible = false;
             }
         }
 
-        protected void logout_click(object sender, EventArgs e)
+        protected void Logout_click(object sender, EventArgs e)
         {
             Session["Usuario"] = null;
 

@@ -22,7 +22,7 @@ namespace WebApplication1
                 this.usuario = (Socio) Session["Usuario"];
 
                 cargarActividades();
-                cargarClases();
+                cargarClases(this.club, this.usuario);
                 cargarProfesores();
                 cargarSocios();
                 cargarPagos();
@@ -43,17 +43,17 @@ namespace WebApplication1
             ListBoxActividades.DataBind();
         }
 
-        protected void cargarClases()
+        protected void cargarClases(Club c, Socio s)
         {
-            if (usuario != null)
+            if (s != null)
             {
-                ListBoxClases.DataSource = club.Clases.Where(c => !usuario.Clases.Contains(c)).ToList();
+                ListBoxClases.DataSource = c.Clases.Where(cla => !s.Clases.Contains(cla)).ToList();
 
-                ListBoxClasesIncriptas.DataSource = usuario.Clases;
+                ListBoxClasesIncriptas.DataSource = s.Clases;
                 ListBoxClasesIncriptas.DataBind();
             } else
             {
-                ListBoxClases.DataSource = club.Clases;
+                ListBoxClases.DataSource = c.Clases;
                 ListBoxClasesIncriptas.Visible = false;
             }
             
@@ -65,6 +65,7 @@ namespace WebApplication1
             if (usuario != null)
             {
                 ListBoxProfesores.Visible = false;
+                LabelProfesores.Visible = false;
 
             } else
             {
@@ -78,7 +79,7 @@ namespace WebApplication1
             if (usuario != null)
             {
                 ListBoxSocios.Visible = false;
-
+                LabelSocios.Visible = false;
             } else
             {
                 ListBoxSocios.DataSource = club.Socios;
@@ -91,6 +92,7 @@ namespace WebApplication1
             if (usuario != null)
             {
                 ListBoxPagos.Visible = false;
+                LabelPagos.Visible = false;
 
             } else
             {
@@ -164,10 +166,15 @@ namespace WebApplication1
         {
             if (ListBoxClases.SelectedIndex != -1)
             {
-                Clase clase = club.Clases.Where(c => !usuario.Clases.Contains(c)).ToList()[ListBoxPagos.SelectedIndex];
-                usuario.agregarClase(clase);
+                Socio s = (Socio)Session["Usuario"];
+                Clase clase = ((Club)Session["Club"]).Clases.Where(c => !s.Clases.Contains(c)).ToList()[ListBoxClases.SelectedIndex];
 
-                cargarClases();
+                clase.agregarSocio(s);
+                s.agregarClase(clase);
+
+                Session["Usuario"] = s;
+
+                cargarClases((Club)Session["Club"], s);
             }
         }
 
@@ -203,6 +210,13 @@ namespace WebApplication1
                 Session["Pago"] = pago;
                 Session["Type"] = "pago";
             }
+            else if (ListBoxClasesIncriptas.SelectedIndex != -1)
+            {
+                Clase clase = ((Club)Session["Club"]).Clases[ListBoxClasesIncriptas.SelectedIndex];
+                Session["Clase"] = clase;
+                Session["Type"] = "clase";
+            }
+
 
             string url = "https://localhost:44366/Mostrar";
             string script = string.Format("window.open('{0}');", url);

@@ -42,6 +42,15 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.ListBox ListBoxClasesIncriptas;
 
         /// <summary>
+        /// Control LabelProfesores.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox LabelProfesores;
+
+        /// <summary>
         /// Control ListBoxProfesores.
         /// </summary>
         /// <remarks>
@@ -51,6 +60,15 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.ListBox ListBoxProfesores;
 
         /// <summary>
+        /// Control LabelSocios.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox LabelSocios;
+
+        /// <summary>
         /// Control ListBoxSocios.
         /// </summary>
         /// <remarks>
@@ -58,6 +76,15 @@ namespace WebApplication1
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ListBox ListBoxSocios;
+
+        /// <summary>
+        /// Control LabelPagos.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox LabelPagos;
 
         /// <summary>
         /// Control ListBoxPagos.

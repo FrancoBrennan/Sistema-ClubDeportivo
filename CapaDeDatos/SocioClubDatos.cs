@@ -11,7 +11,7 @@ namespace CapaDeDatos
             this.con = new Conexion();
         }
 
-        public int agregar(int dni, string nom, DateTime fechaNac, float CuotaSocial, string Email, string Direccion)
+        public int agregar(int dni, string nom, float CuotaSocial, string Email, string Direccion, DateTime fechaNac)
         {
             string query = "INSERT INTO SocioClub (DNI, Nombre, CuotaSocial, Email, Direccion, FechaNacimiento) VALUES (@dni, @nombre, @CuotaSocial, @Email, @Direccion, @fechaNac)";
 
@@ -21,10 +21,10 @@ namespace CapaDeDatos
                 // Agregar parámetros al comando
                 cmd.Parameters.AddWithValue("@dni", dni);
                 cmd.Parameters.AddWithValue("@nombre", nom);
-                cmd.Parameters.AddWithValue("@fechaNac", fechaNac);
                 cmd.Parameters.AddWithValue("@CuotaSocial", CuotaSocial);
                 cmd.Parameters.AddWithValue("@Email", Email);
                 cmd.Parameters.AddWithValue("@Direccion", Direccion);
+                cmd.Parameters.AddWithValue("@fechaNac", fechaNac);
 
                 return con.ejecutarComando(cmd);
             }

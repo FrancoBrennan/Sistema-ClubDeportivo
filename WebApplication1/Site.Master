@@ -50,7 +50,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">Acerca de</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact"></a></li>
                     </ul>
-                    <asp:LoginView runat="server" ViewStateMode="Disabled" ID="LoginHeader">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled" ID="LoginHeader2">
                         <AnonymousTemplate>
                             <ul class="navbar-nav navbar-right">
                                 <li><a runat="server" class="nav-link" href="~/Account/Register">Registrarse</a></li>
@@ -66,7 +66,7 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
-                    <asp:LoginView runat="server" ViewStateMode="Disabled" ID="LogoutHeader">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled" ID="LogoutHeader2">
                         <AnonymousTemplate>
                             <ul class="navbar-nav navbar-right">
                                 <li><a runat="server" class="nav-link" onclick="logout_click">Logout</a></li>
